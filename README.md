@@ -76,9 +76,3 @@ Then inside any project with Claude Code, use slash commands:
 - **Apple**: SwiftUI, Swift concurrency, on-device models
 
 ## License
-
-MIT — see [LICENSE](./LICENSE)
-
----
-
-*Powered by [everything-claude-code](https://github.com/affaan-m/everything-claude-code)*
