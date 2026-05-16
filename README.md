@@ -6,8 +6,8 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 61 | Specialized subagents for delegation |
-| **Skills** | 140 | Workflow definitions & domain knowledge |
+| **Agents** | 62 | Specialized subagents for delegation |
+| **Skills** | 141 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
 | **Hooks** | — | Session persistence & automation triggers |
@@ -65,6 +65,7 @@
 | `cs-project-shepherd` | Cross-functional project coordination — charters, timeline management, stakeholder alignment, risk mitigation |
 | `cs-studio-operations` | Day-to-day studio efficiency — SOP generation, process optimization, operational excellence, automation opportunities |
 | `cs-studio-producer` | Strategic portfolio management — Tier 1/2 prioritization, resource allocation, ROI tracking, executive reviews |
+| `cs-senior-project-manager` | Specification-to-task conversion — realistic scope, 30-60min task units, persistent memory, Laravel/Livewire/FluxUI specialist |
 
 ## Quick Start (Claude Code)
 
