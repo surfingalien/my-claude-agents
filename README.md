@@ -7,7 +7,7 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 35 | Specialized subagents for delegation |
+| **Agents** | 38 | Specialized subagents for delegation |
 | **Skills** | 135 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
@@ -43,6 +43,9 @@
 | `cs-inclusive-visuals-specialist` | Counter-bias prompt engineering for authentic representation |
 | `cs-ui-designer` | Design systems, component libraries, and WCAG AA accessibility |
 | `cs-ux-architect` | CSS architecture foundations, layout systems, and theme infrastructure |
+| `cs-ux-researcher` | User research studies, personas, usability testing, and behavioral insights |
+| `cs-visual-storyteller` | Visual narratives, storyboards, multimedia content, and cross-platform visual strategy |
+| `cs-whimsy-injector` | Micro-interactions, playful microcopy, Easter eggs, and accessible gamification |
 
 ## Quick Start (Claude Code)
 
