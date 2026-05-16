@@ -6,7 +6,7 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 46 | Specialized subagents for delegation |
+| **Agents** | 51 | Specialized subagents for delegation |
 | **Skills** | 135 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
@@ -50,6 +50,11 @@
 | `cs-fpa-analyst` | Annual operating plans, rolling forecasts, variance analysis, and monthly business reviews |
 | `cs-investment-researcher` | Investment thesis construction, due diligence, valuation, and portfolio monitoring |
 | `cs-tax-strategist` | Tax optimization, entity structuring, equity comp planning, and multi-jurisdictional compliance |
+| `cs-anthropologist` | Culturally coherent society design — kinship systems, rituals, exchange mechanisms, cosmologies |
+| `cs-geographer` | Physically coherent world geography — climate systems, hydrology, biomes, settlement patterns |
+| `cs-historian` | Historical authenticity, anachronism detection, material culture, and period-accurate enrichment |
+| `cs-narratologist` | Story structure analysis, character arc assessment, genre conventions, and narrative debt tracking |
+| `cs-psychologist` | Psychological profiles, interpersonal dynamics, trauma response modeling, and character credibility |
 
 ## Quick Start (Claude Code)
 
