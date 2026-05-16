@@ -1,0 +1,24 @@
+{
+  "_comment": "Performance budget for web projects. Adjust thresholds to match your product goals.",
+  "budgets": [
+    {
+      "resourceSizes": [
+        { "resourceType": "script",    "budget": 150 },
+        { "resourceType": "stylesheet","budget": 50  },
+        { "resourceType": "image",     "budget": 300 },
+        { "resourceType": "font",      "budget": 100 },
+        { "resourceType": "total",     "budget": 700 }
+      ],
+      "resourceCounts": [
+        { "resourceType": "third-party", "budget": 10 }
+      ],
+      "timings": [
+        { "metric": "first-contentful-paint",    "budget": 1800 },
+        { "metric": "largest-contentful-paint",  "budget": 2500 },
+        { "metric": "total-blocking-time",       "budget": 200  },
+        { "metric": "cumulative-layout-shift",   "budget": 100  },
+        { "metric": "interactive",               "budget": 3800 }
+      ]
+    }
+  ]
+}
