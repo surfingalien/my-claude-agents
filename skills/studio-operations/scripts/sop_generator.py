@@ -62,9 +62,24 @@ def generate_sop(name: str, dept: str, owner: str,
             "Completion of onboarding training",
         ],
         "steps": steps or [
-            {"number": 1, "action": "Start process", "detail": "Describe first action", "expected_result": "Process initiated"},
-            {"number": 2, "action": "Execute main task", "detail": "Describe core action", "expected_result": "Task completed"},
-            {"number": 3, "action": "Verify and close", "detail": "Quality check", "expected_result": "Process complete and verified"},
+            {
+                "number": 1,
+                "action": "Start process",
+                "detail": "Describe first action",
+                "expected_result": "Process initiated"
+            },
+            {
+                "number": 2,
+                "action": "Execute main task",
+                "detail": "Describe core action",
+                "expected_result": "Task completed"
+            },
+            {
+                "number": 3,
+                "action": "Verify and close",
+                "detail": "Quality check",
+                "expected_result": "Process complete and verified"
+            },
         ],
         "quality_checks": [
             "Output matches expected format",
@@ -72,8 +87,8 @@ def generate_sop(name: str, dept: str, owner: str,
             "Stakeholder notified of completion",
         ],
         "escalation": {
-            "level_1": f"Contact {owner} via Slack",
-            "level_2": f"Escalate to department head",
+            "level_1": "Contact {} via Slack".format(owner),
+            "level_2": "Escalate to department head",
             "emergency": "Page on-call via PagerDuty",
         },
         "revision_history": [
@@ -111,30 +126,30 @@ def process_inventory(processes: list) -> list:
 
 
 def print_sop(sop: dict):
-    print(f"\nSOP: {sop['name']}")
+    print("\nSOP: {}".format(sop['name']))
     print("=" * 60)
     print(f"Document ID:  {sop['id']}")
     print(f"Version:      {sop['version']}")
     print(f"Owner:        {sop['owner']}")
     print(f"Last Updated: {sop['created']}")
     print(f"Review Date:  {sop['review_date']}")
-    print(f"\nPURPOSE")
+    print("\nPURPOSE")
     print(f"  {sop['purpose']}")
-    print(f"\nPROCEDURE")
+    print("\nPROCEDURE")
     for step in sop["steps"]:
         print(f"\n  Step {step['number']}: {step['action']}")
         print(f"    {step['detail']}")
         print(f"    Expected: {step['expected_result']}")
-    print(f"\nQUALITY CHECKS")
+    print("\nQUALITY CHECKS")
     for check in sop["quality_checks"]:
         print(f"  ☐ {check}")
-    print(f"\nESCALATION")
+    print("\nESCALATION")
     for level, action in sop["escalation"].items():
         print(f"  {level.replace('_', ' ').title()}: {action}")
 
 
 def print_inventory(processes: list):
-    print(f"\nPROCESS INVENTORY")
+    print("\nPROCESS INVENTORY")
     print(f"{'ID':<15} {'Name':<35} {'Owner':<15} {'Freq':<12} {'Auto':<6} {'Score':<6} {'Opportunity'}")
     print("-" * 100)
     for p in processes:
@@ -175,7 +190,7 @@ def main():
         if args.format == "json":
             print(json.dumps(score, indent=2))
         else:
-            print(f"\nEFFICIENCY SCORE")
+            print("\nEFFICIENCY SCORE")
             print("=" * 40)
             for k, v in score.items():
                 print(f"  {k.replace('_', ' ').title():<25} {v}")

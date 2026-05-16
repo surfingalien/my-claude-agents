@@ -105,21 +105,21 @@ def generate_review(projects: list, month: str, presenter: str) -> dict:
 
 def print_portfolio_plan(plan: dict):
     s = plan["summary"]
-    print(f"\nSTRATEGIC PORTFOLIO PLAN — {plan['quarter']} {plan['year']}")
+    print("\nSTRATEGIC PORTFOLIO PLAN — {} {}".format(plan['quarter'], plan['year']))
     print("=" * 60)
     print(f"Producer: {plan['producer']} | Generated: {plan['generated']}")
-    print(f"\nOVERVIEW")
-    print(f"  Active projects:   {s['total_projects']}  "
-          f"(T1: {s['tier_breakdown'].get('tier1',0)} | "
-          f"T2: {s['tier_breakdown'].get('tier2',0)} | "
-          f"T3: {s['tier_breakdown'].get('tier3',0)})")
+    print("\nOVERVIEW")
+    print("  Active projects:   {}  ".format(s['total_projects']) +
+          "(T1: {} | ".format(s['tier_breakdown'].get('tier1', 0)) +
+          "T2: {} | ".format(s['tier_breakdown'].get('tier2', 0)) +
+          "T3: {})".format(s['tier_breakdown'].get('tier3', 0)))
     print(f"  Total revenue:     ${s['total_revenue']:,.0f}")
     print(f"  Portfolio margin:  {s['portfolio_margin_pct']}%")
     print(f"  Projects at risk:  {s['projects_at_risk']}")
 
     for tier_label, tier_key in [("TIER 1 — FLAGSHIP", "tier1_projects"),
-                                   ("TIER 2 — CORE", "tier2_projects"),
-                                   ("TIER 3 — PIPELINE", "tier3_projects")]:
+                                 ("TIER 2 — CORE", "tier2_projects"),
+                                 ("TIER 3 — PIPELINE", "tier3_projects")]:
         projects = plan.get(tier_key, [])
         if projects:
             print(f"\n{tier_label}")
@@ -135,14 +135,14 @@ def print_portfolio_plan(plan: dict):
 
 def print_review(review: dict):
     s = review["headline_metrics"]
-    print(f"\nPORTFOLIO REVIEW — {review['month']}")
+    print("\nPORTFOLIO REVIEW — {}".format(review['month']))
     print("=" * 60)
     print(f"Presenter: {review['presenter']}")
-    print(f"\nHEADLINE METRICS")
-    print(f"  Total revenue:     ${s['total_revenue']:,.0f}")
-    print(f"  Portfolio margin:  {s['portfolio_margin_pct']}%")
-    print(f"  Projects at risk:  {s['projects_at_risk']}")
-    print(f"\nPROJECT HEALTH DASHBOARD")
+    print("\nHEADLINE METRICS")
+    print("  Total revenue:     ${:,.0f}".format(s['total_revenue']))
+    print("  Portfolio margin:  {}%".format(s['portfolio_margin_pct']))
+    print("  Projects at risk:  {}".format(s['projects_at_risk']))
+    print("\nPROJECT HEALTH DASHBOARD")
     print(f"  {'Name':<30} {'Tier':<8} {'Health':<6} {'Revenue':>12} {'Margin':>8} {'Lead'}")
     print(f"  {'-'*80}")
     for p in review["health_dashboard"]:
@@ -151,7 +151,7 @@ def print_review(review: dict):
 
 
 def print_roi(roi: dict):
-    print(f"\nROI ANALYSIS")
+    print("\nROI ANALYSIS")
     print("=" * 40)
     print(f"  Revenue:         ${roi['revenue']:>12,.2f}")
     print(f"  Direct costs:    ${roi['direct_costs']:>12,.2f}")
