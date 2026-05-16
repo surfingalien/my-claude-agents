@@ -7,7 +7,7 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 38 | Specialized subagents for delegation |
+| **Agents** | 46 | Specialized subagents for delegation |
 | **Skills** | 135 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
@@ -46,6 +46,11 @@
 | `cs-ux-researcher` | User research studies, personas, usability testing, and behavioral insights |
 | `cs-visual-storyteller` | Visual narratives, storyboards, multimedia content, and cross-platform visual strategy |
 | `cs-whimsy-injector` | Micro-interactions, playful microcopy, Easter eggs, and accessible gamification |
+| `cs-bookkeeper-controller` | Month-end close, account reconciliations, GAAP compliance, and internal controls |
+| `cs-financial-analyst` | DCF valuation, three-statement models, comparable analysis, and scenario planning |
+| `cs-fpa-analyst` | Annual operating plans, rolling forecasts, variance analysis, and monthly business reviews |
+| `cs-investment-researcher` | Investment thesis construction, due diligence, valuation, and portfolio monitoring |
+| `cs-tax-strategist` | Tax optimization, entity structuring, equity comp planning, and multi-jurisdictional compliance |
 
 ## Quick Start (Claude Code)
 
