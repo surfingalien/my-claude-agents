@@ -1,7 +1,6 @@
 # my-claude-agents
 
 > Production-ready Claude Code agents, skills, commands, rules & hooks.
-> Built from [everything-claude-code](https://github.com/affaan-m/everything-claude-code) v1.9.0.
 
 ## What's inside
 
