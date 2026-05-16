@@ -1,6 +1,7 @@
 ---name: dmux-workflows
 description: Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent development workflows.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Dmux Workflows Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Orchestrate parallel AI agent sessions using dmux, a tmux pane manager for agent harnesses.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Running multiple agent sessions in parallel
@@ -82,7 +87,7 @@ Run tests in one pane, fix in another:
 Pane 1 (Watcher): "Run the test suite in watch mode. When tests fail,
   summarize the failures."
 
-Pane 2 (Fixer): "Fix failing tests based on the error output from pane 1"
+Pane 2 (Fixer): "Fix failing tests 
 ```
 
 ### Pattern 4: Cross-Harness

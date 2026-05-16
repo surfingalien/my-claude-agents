@@ -1,6 +1,7 @@
 ---name: backend-patterns
 description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Backend Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Backend architecture patterns and best practices for scalable server-side applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Designing REST or GraphQL API endpoints

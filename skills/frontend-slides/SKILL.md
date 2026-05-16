@@ -1,6 +1,7 @@
 ---name: frontend-slides
 description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Frontend Slides Agent
 
@@ -14,8 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Create zero-dependency, animation-rich HTML presentations that run entirely in the browser.
 
-Inspired by the visual exploration approach showcased in work by zarazhangrui (credit: @zarazhangrui).
 
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Creating a talk deck, pitch deck, workshop deck, or internal presentation

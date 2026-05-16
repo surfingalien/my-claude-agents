@@ -1,6 +1,7 @@
 ---name: java-coding-standards
 description: "Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Java Coding Standards Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Standards for readable, maintainable Java (17+) code in Spring Boot services.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Writing or reviewing Java code in Spring Boot projects

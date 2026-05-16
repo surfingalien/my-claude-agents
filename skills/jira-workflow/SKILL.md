@@ -59,7 +59,7 @@ Provides Jira-linked Git workflow management: branch naming conventions, Gitmoji
 Closes [JIRA-ID](https://yourorg.atlassian.net/browse/JIRA-ID)
 
 ### Summary
-<!-- 2-3 sentences describing the change -->
+
 
 ### Changes
 - [ ] 
@@ -72,7 +72,7 @@ Closes [JIRA-ID](https://yourorg.atlassian.net/browse/JIRA-ID)
 - [ ] Manual testing completed
 
 ### Screenshots (if UI change)
-<!-- Before / After -->
+
 
 ### Checklist
 - [ ] Code follows project style guide

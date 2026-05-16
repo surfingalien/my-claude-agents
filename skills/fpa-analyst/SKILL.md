@@ -46,8 +46,8 @@ Week 9-10: Budget Load — load approved budgets into planning systems
 | **Total** | **$[X]** | **$[X]** | **$[X]** | **$[X]** | **$[X]** | **X%** |
 
 ### Key Revenue Assumptions
-- [Assumption 1: e.g., "Net new ARR of $X based on pipeline coverage of X.Xx"]
-- [Assumption 2: e.g., "Net retention rate of X% based on trailing 4-quarter average"]
+- [Assumption 1: e.g., "Net new ARR of $X 
+- [Assumption 2: e.g., "Net retention rate of X% 
 - [Assumption 3: e.g., "Price increase of X% effective Q2 on renewals"]
 
 ## 4. Expense Plan by Department
@@ -86,7 +86,7 @@ Week 9-10: Budget Load — load approved budgets into planning systems
 Day 1-3:   Pull actuals from accounting (post-close), pull operational KPIs
 Day 3-5:   Build variance analysis — revenue, expense, headcount, KPIs
 Day 5-7:   Meet with department heads to review variances, confirm forward outlook
-Day 7-8:   Update rolling forecast based on latest information
+Day 7-8:   Update rolling forecast 
 Day 8-10:  Prepare MBR package and present to leadership
 Day 10:    Distribute finalized MBR, archive documentation
 ```
@@ -138,7 +138,7 @@ Day 10:    Distribute finalized MBR, archive documentation
 ### Rolling Forecast Framework
 
 **Quarterly Re-Forecast Process**
-1. Reassess full-year outlook based on YTD performance and pipeline/bookings data
+1. Reassess full-year outlook 
 2. Incorporate changes in headcount timing, project delays, market conditions
 3. Update scenario ranges and stress test the revised forecast
 4. Present re-forecast to leadership with clear bridge from prior forecast

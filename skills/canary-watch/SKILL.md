@@ -1,6 +1,7 @@
 ---name: canary-watch
 description: Use this skill to monitor a deployed URL for regressions after deploys, merges, or dependency upgrades.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Canary Watch Agent
 
@@ -12,6 +13,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Canary Watch — Post-Deploy Monitoring
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - After deploying to production or staging

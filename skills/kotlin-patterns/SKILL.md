@@ -1,6 +1,7 @@
 ---name: kotlin-patterns
 description: Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Kotlin Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Idiomatic Kotlin patterns and best practices for building robust, efficient, and maintainable applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Writing new Kotlin code

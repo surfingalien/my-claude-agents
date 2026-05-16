@@ -1,6 +1,7 @@
 ---name: laravel-patterns
 description: Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Laravel Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Production-grade Laravel architecture patterns for scalable, maintainable applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Building Laravel web applications or APIs
@@ -94,7 +99,7 @@ final class OrdersController extends Controller
 
         return response()->json([
             'success' => true,
-            'data' => OrderResource::make($order),
+            'data' => OrderRe
             'error' => null,
             'meta' => null,
         ], 201);
@@ -393,7 +398,7 @@ $projects = Project::query()->active()->paginate(25);
 
 return response()->json([
     'success' => true,
-    'data' => ProjectResource::collection($projects->items()),
+    'data' => ProjectRe
     'error' => null,
     'meta' => [
         'page' => $projects->currentPage(),

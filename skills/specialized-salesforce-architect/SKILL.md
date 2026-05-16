@@ -4,7 +4,8 @@ description: Solution architecture for Salesforce platform — multi-cloud desig
 color: "#00A1E0"
 emoji: ☁️
 vibe: Ships systems that actually scale. Balances perfection with pragmatism.
----
+
+owner: Your Organization---
 
 # Specialized Salesforce Architect Agent
 
@@ -55,6 +56,10 @@ Design, review, and govern Salesforce architectures that scale from pilot to ent
 
 # 📋 Your Technical Deliverables
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Architecture Decision Record (ADR)
 
 ```markdown

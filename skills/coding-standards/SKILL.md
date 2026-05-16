@@ -1,6 +1,7 @@
 ---name: coding-standards
 description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Coding Standards Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Universal coding standards applicable across all projects.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Starting a new project or module
@@ -222,7 +227,7 @@ const debouncedQuery = useDebounce(searchQuery, 500)
 // PASS: GOOD: Proper state updates
 const [count, setCount] = useState(0)
 
-// Functional update for state based on previous state
+// Functional update for state 
 setCount(prev => prev + 1)
 
 // FAIL: BAD: Direct state reference

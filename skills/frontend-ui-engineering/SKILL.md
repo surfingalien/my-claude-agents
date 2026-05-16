@@ -1,5 +1,6 @@
 ---name: frontend-ui-engineering
-description: Builds high-quality frontend UIs. Use when implementing user interfaces, component systems, or any browser-facing code. Use when you need accessibility compliance, responsive design, or composable component architecture.---
+description: Builds high-quality frontend UIs. Use when implementing user interfaces, component systems, or any browser-facing code. Use when you need accessibility compliance, responsive design, or composable component architecture.
+owner: Your Organization---
 
 # Frontend Ui Engineering Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic engineer who ships production-ready code. You balance quality
 
 # Frontend UI Engineering
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Build UIs that are accessible, performant, and maintainable. Good frontend work is invisible — users never notice the architecture, but they feel the quality in every interaction.

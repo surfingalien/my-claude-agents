@@ -1,5 +1,6 @@
 ---name: documentation-and-adrs
-description: Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need.---
+description: Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need.
+owner: Your Organization---
 
 # Documentation And Adrs Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Documentation and ADRs
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Document decisions, not just code. The most valuable documentation captures the *why* — the context, constraints, and trade-offs that led to a decision. Code shows *what* was built; documentation explains *why it was built this way* and *what alternatives were considered*.

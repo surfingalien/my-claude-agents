@@ -1,6 +1,7 @@
 ---name: data-scraper-agent
 description: Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback. Runs 100% free on GitHub Actions. Use when the user wants to monitor, collect, or track any public data automatically.
-origin: community---
+origin: community
+owner: Your Organization---
 
 # Data Scraper Agent Agent
 
@@ -17,13 +18,17 @@ Runs on a schedule, enriches results with a free LLM, stores to a database, and 
 
 **Stack: Python · Gemini Flash (free) · GitHub Actions (free) · Notion / Sheets / Supabase**
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - User wants to scrape or monitor any public website or API
 - User says "build a bot that checks...", "monitor X for me", "collect data from..."
 - User wants to track jobs, prices, news, repos, sports scores, events, listings
 - User asks how to automate data collection without paying for hosting
-- User wants an agent that gets smarter over time based on their decisions
+- User wants an agent that gets smarter over time 
 
 ## Core Concepts
 
@@ -140,7 +145,7 @@ my-agent/
 
 ### Step 3: Build the Scraper Source
 
-Template for any data source:
+Template for any data 
 
 ```python
 # scraper/sources/my_source.py
@@ -489,7 +494,7 @@ def main():
     config = yaml.safe_load((Path(__file__).parent.parent / "config.yaml").read_text())
     provider = config.get("storage", {}).get("provider", "notion")
 
-    # Resolve the storage target identifier from env based on provider
+    # Resolve the storage target identifier from env 
     if provider == "notion":
         db_id = os.environ.get("NOTION_DATABASE_ID")
         if not db_id:

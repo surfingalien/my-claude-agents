@@ -1,6 +1,7 @@
 ---name: laravel-security
 description: Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, secrets, rate limiting, and secure deployment.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Laravel Security Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Comprehensive security guidance for Laravel applications to protect against common vulnerabilities.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Adding authentication or authorization

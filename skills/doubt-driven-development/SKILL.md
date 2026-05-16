@@ -1,5 +1,6 @@
 ---name: doubt-driven-development
-description: Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, or when stakes are high.---
+description: Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, or when stakes are high.
+owner: Your Organization---
 
 # Doubt Driven Development Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Doubt-Driven Development
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 A confident answer is not a correct one. Long sessions accumulate context that quietly turns assumptions into "facts." Doubt-driven development is the discipline of materializing a fresh-context reviewer — biased to **disprove**, not approve — before any non-trivial output stands.

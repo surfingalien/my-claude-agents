@@ -4,7 +4,8 @@ description: Expert in AI recommendation engine optimization (AEO/GEO) — audit
 color: "#6D28D9"
 emoji: 🔮
 vibe: Moves fast, measures everything, doubles down on what works.
----
+
+owner: Your Organization---
 
 # Marketing Ai Citation Strategist Agent
 
@@ -52,6 +53,10 @@ Audit, analyze, and improve brand visibility across AI recommendation engines. B
 
 # Technical Deliverables
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Citation Audit Scorecard
 
 ```markdown

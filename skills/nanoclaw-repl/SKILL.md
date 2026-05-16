@@ -1,6 +1,7 @@
 ---name: nanoclaw-repl
 description: Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Nanoclaw Repl Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Use this skill when running or extending `scripts/claw.js`.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Capabilities
 
 - persistent markdown-backed sessions

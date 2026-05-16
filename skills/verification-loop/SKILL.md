@@ -1,6 +1,7 @@
 ---name: verification-loop
 description: "A comprehensive verification system for Claude Code sessions."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Verification Loop Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 A comprehensive verification system for Claude Code sessions.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 Invoke this skill:

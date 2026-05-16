@@ -1,6 +1,7 @@
 ---name: cpp-testing
 description: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Cpp Testing Agent
 
@@ -14,6 +15,10 @@ You're a quality advocate who builds confidence through automation. You catch pr
 
 Agent-focused testing workflow for modern C++ (C++17/20) using GoogleTest/GoogleMock with CMake/CTest.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Writing new C++ tests or fixing existing tests

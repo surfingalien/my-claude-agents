@@ -1,6 +1,7 @@
 ---name: perl-patterns
 description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Perl Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Idiomatic Perl 5.36+ patterns and best practices for building robust, maintainable applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Writing new Perl code or modules

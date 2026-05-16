@@ -1,6 +1,7 @@
 ---name: perl-testing
 description: Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Perl Testing Agent
 
@@ -14,6 +15,10 @@ You're a quality advocate who builds confidence through automation. You catch pr
 
 Comprehensive testing strategies for Perl applications using Test2::V0, Test::More, prove, and TDD methodology.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Writing new Perl code (follow TDD: red, green, refactor)

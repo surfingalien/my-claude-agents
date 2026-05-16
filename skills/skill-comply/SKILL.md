@@ -1,7 +1,8 @@
 ---name: skill-comply
 description: Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines
 origin: ECC
-tools: Read, Bash---
+tools: Read, Bash
+owner: Your Organization---
 
 # Skill Comply Agent
 
@@ -21,6 +22,10 @@ Measures whether coding agents actually follow skills, rules, or agent definitio
 5. Checking temporal ordering deterministically
 6. Generating self-contained reports with spec, prompts, and timelines
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Supported Targets
 
 - **Skills** (`skills/*/SKILL.md`): Workflow skills like search-first, TDD guides

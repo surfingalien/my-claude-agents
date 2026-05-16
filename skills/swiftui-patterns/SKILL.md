@@ -1,5 +1,6 @@
 ---name: swiftui-patterns
-description: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.---
+description: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.
+owner: Your Organization---
 
 # Swiftui Patterns Agent
 
@@ -13,6 +14,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Modern SwiftUI patterns for building declarative, performant user interfaces on Apple platforms. Covers the Observation framework, view composition, type-safe navigation, and performance optimization.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building SwiftUI views and managing state (`@State`, `@Observable`, `@Binding`)

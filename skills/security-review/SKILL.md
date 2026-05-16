@@ -1,6 +1,7 @@
 ---name: security-review
 description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Security Review Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 This skill ensures all code follows security best practices and identifies potential vulnerabilities.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Implementing authentication or authorization

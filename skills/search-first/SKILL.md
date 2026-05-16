@@ -1,6 +1,7 @@
 ---name: search-first
 description: Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Search First Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Systematizes the "search for existing solutions before implementing" workflow.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Trigger
 
 Use this skill when:

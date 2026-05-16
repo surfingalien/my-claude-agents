@@ -14,7 +14,8 @@ description: >-
 origin: community
 metadata:
   author: YannJY02
-  version: "1.0.0"---
+  version: "1.0.0"
+owner: Your Organization---
 
 # Prompt Optimizer Agent
 
@@ -29,6 +30,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 Analyze a draft prompt, critique it, match it to ECC ecosystem components,
 and output a complete optimized prompt the user can paste and run.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - User says "optimize this prompt", "improve my prompt", "rewrite this prompt"
@@ -249,7 +254,7 @@ A compact version for experienced ECC users. Vary by intent type:
 | New Feature | `/plan [feature]. /tdd to implement. /code-review. /verify.` |
 | Bug Fix | `/tdd — write failing test for [bug]. Fix to green. /verify.` |
 | Refactor | `/refactor-clean [scope]. /code-review. /verify.` |
-| Research | `Use search-first skill for [topic]. /plan based on findings.` |
+| Research | `Use search-first skill for [topic]. /plan 
 | Testing | `/tdd [module]. /e2e for critical flows. /test-coverage.` |
 | Review | `/code-review. Then use security-reviewer agent.` |
 | Docs | `/update-docs. /update-codemaps.` |

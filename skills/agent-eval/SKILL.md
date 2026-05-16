@@ -1,7 +1,8 @@
 ---name: agent-eval
 description: Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics
 origin: ECC
-tools: Read, Write, Edit, Bash, Grep, Glob---
+tools: Read, Write, Edit, Bash, Grep, Glob
+owner: Your Organization---
 
 # Agent Eval Agent
 
@@ -15,6 +16,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 A lightweight CLI tool for comparing coding agents head-to-head on reproducible tasks. Every "which coding agent is best?" comparison runs on vibes — this tool systematizes it.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Comparing coding agents (Claude Code, Aider, Codex, etc.) on your own codebase

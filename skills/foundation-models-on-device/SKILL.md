@@ -1,5 +1,6 @@
 ---name: foundation-models-on-device
-description: Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.---
+description: Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.
+owner: Your Organization---
 
 # Foundation Models On Device Agent
 
@@ -13,6 +14,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Patterns for integrating Apple's on-device language model into apps using the FoundationModels framework. Covers text generation, structured output with `@Generable`, custom tool calling, and snapshot streaming — all running on-device for privacy and offline support.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building AI-powered features using Apple Intelligence on-device
@@ -58,7 +63,7 @@ print(response.content)
 // Multi-turn: reuse session for conversation context
 let session = LanguageModelSession(instructions: """
     You are a cooking assistant.
-    Provide recipe suggestions based on ingredients.
+    Provide recipe suggestions 
     Keep suggestions brief and practical.
     """)
 

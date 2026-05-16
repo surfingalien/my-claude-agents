@@ -1,5 +1,6 @@
 ---name: source-driven-development
-description: Grounds implementation in authoritative sources. Use when implementing any API, library feature, browser capability, or framework pattern. Always fetch from official docs before writing code.---
+description: Grounds implementation in authoritative sources. Use when implementing any API, library feature, browser capability, or framework pattern. Always fetch from official docs before writing code.
+owner: Your Organization---
 
 # Source Driven Development Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Source-Driven Development
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Don't code from memory. Code from documentation. The source is always more accurate than what you remember or what you were trained on — APIs change, behaviors get deprecated, and subtle details matter.
@@ -76,7 +81,7 @@ Write code that matches what the documentation says, not what you expect:
 const result = await stripe.charges.create({
   amount: 1000,
   currency: 'usd',
-  source: tokenId,  // might be wrong — is it 'source' or 'payment_method'?
+  
 });
 
 // GOOD: Implement from the fetched docs

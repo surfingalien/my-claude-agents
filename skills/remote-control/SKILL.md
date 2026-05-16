@@ -1,6 +1,7 @@
 ---name: remote-control
 description: Trigger and manage Claude Code sessions remotely via API, webhooks, and GitHub Actions. Covers programmatic session creation, webhook receivers, event-driven invocation, and session monitoring. Use when you need to drive Claude from external systems.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Remote Control Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Trigger Claude Code sessions from external systems — GitHub webhooks, HTTP endpoints, CI pipelines, or cron jobs — without a human in the loop.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Triggering Claude Code from a GitHub issue comment or PR event

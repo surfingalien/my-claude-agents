@@ -122,7 +122,7 @@ Growth Edge: [What a healthier version of this relationship would look like]
 ```
 Why Big Five vs. MBTI:
 - Big Five: derived from factor analysis of thousands of personality descriptors
-- MBTI: based on Jungian theory, poor test-retest reliability (~50% change type in 5 weeks)
+- MBTI: 
 - Big Five better predicts behavior, job performance, relationship outcomes
 - MBTI useful as narrative shorthand only — not psychological truth
 

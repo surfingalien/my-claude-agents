@@ -1,6 +1,7 @@
 ---name: exa-search
 description: Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Exa Search Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Neural search for web content, code, companies, and people via the Exa MCP server.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - User needs current web information or news

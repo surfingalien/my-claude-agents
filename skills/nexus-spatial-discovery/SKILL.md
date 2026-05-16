@@ -201,7 +201,7 @@ An 8-service architecture with clear ownership boundaries, designed for horizont
 Built-in Node Types:
   ai_agent          -- Calls an AI provider with a prompt
   prompt_template   -- Renders a template with variables
-  conditional       -- Routes based on expression
+  conditional       -- Routes 
   transform         -- Sandboxed code snippet (JS/Python)
   input / output    -- Workflow entry/exit points
   human_review      -- Pauses for human approval
@@ -483,7 +483,7 @@ The standout design decision: the support agent lives as a visible node **inside
 
 ### Onboarding Flow
 
-Adaptive onboarding based on user profiling:
+Adaptive onboarding 
 
 | AI Experience | Spatial Experience | Path |
 |---------------|-------------------|------|

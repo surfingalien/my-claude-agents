@@ -1,6 +1,7 @@
 ---name: iterative-retrieval
 description: Pattern for progressively refining context retrieval to solve the subagent context problem
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Iterative Retrieval Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Solves the "context problem" in multi-agent workflows where subagents don't know what context they need until they start working.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Spawning subagents that need codebase context they cannot predict upfront
@@ -93,7 +98,7 @@ Scoring criteria:
 
 ### Phase 3: REFINE
 
-Update search criteria based on evaluation:
+Update search criteria 
 
 ```javascript
 function refineQuery(evaluation, previousQuery) {

@@ -9,7 +9,8 @@ description: >-
   complex multi-PR task, or describes work that needs multiple sessions.
   DO NOT TRIGGER when: task is completable in a single PR or fewer
   than 3 tool calls, or user says "just do it".
-origin: community---
+origin: community
+owner: Your Organization---
 
 # Blueprint Agent
 
@@ -23,6 +24,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Turn a one-line objective into a step-by-step construction plan that any coding agent can execute cold.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Breaking a large feature into multiple PRs with clear dependency order

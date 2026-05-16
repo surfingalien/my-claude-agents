@@ -1,6 +1,7 @@
 ---name: plankton-code-quality
 description: "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks."
-origin: community---
+origin: community
+owner: Your Organization---
 
 # Plankton Code Quality Agent
 
@@ -12,8 +13,12 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Plankton Code Quality Skill
 
-Integration reference for Plankton (credit: @alxfazio), a write-time code quality enforcement system for Claude Code. Plankton runs formatters and linters on every file edit via PostToolUse hooks, then spawns Claude subprocesses to fix violations the agent didn't catch.
+Integration reference for Plankton (
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - You want automatic formatting and linting on every file edit (not just at commit time)
@@ -40,7 +45,7 @@ Phase 2: Collect Violations (JSON)
 
 Phase 3: Delegate + Verify
 ├─ Spawns claude -p subprocess with violations JSON
-├─ Routes to model tier based on violation complexity:
+├─ Routes to model tier 
 │   ├─ Haiku: formatting, imports, style (E/W/F codes) — 120s timeout
 │   ├─ Sonnet: complexity, refactoring (C901, PLR codes) — 300s timeout
 │   └─ Opus: type system, deep reasoning (unresolved-attribute) — 600s timeout
@@ -194,9 +199,9 @@ Plankton's `.claude/hooks/config.json` controls all behavior:
 
 ## References
 
-- Plankton (credit: @alxfazio)
-- Plankton REFERENCE.md — Full architecture documentation (credit: @alxfazio)
-- Plankton SETUP.md — Detailed installation guide (credit: @alxfazio)
+- Plankton (
+- Plankton REFERENCE.md — Full architecture documentation (
+- Plankton SETUP.md — Detailed installation guide (
 
 ## ECC v1.8 Additions
 

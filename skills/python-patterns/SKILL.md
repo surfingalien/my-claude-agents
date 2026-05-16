@@ -1,6 +1,7 @@
 ---name: python-patterns
 description: Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Python Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Idiomatic Python patterns and best practices for building robust, efficient, and maintainable applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Writing new Python code

@@ -245,7 +245,7 @@ Output:
 
 ### `scripts/nexus_analyzer.py`
 
-Maps state nexus exposure based on employee locations, property, and sales by state.
+Maps state nexus exposure 
 
 ```
 Usage: python nexus_analyzer.py employees.csv sales_by_state.csv [--property property.csv] [--year 2025]
@@ -283,7 +283,7 @@ Quick reference to commonly used IRC sections for startups and growth-stage comp
 State-by-state economic nexus thresholds for income tax and sales tax, updated annually. Includes registration process and penalty-for-noncompliance ranges.
 
 ### `references/transfer_pricing_methods.md`
-Overview of the six transfer pricing methods under Treas. Reg. §1.482, with selection guidance based on transaction type and data availability.
+Overview of the six transfer pricing methods under Treas. Reg. §1.482, with selection guidance 
 
 ## Assets
 

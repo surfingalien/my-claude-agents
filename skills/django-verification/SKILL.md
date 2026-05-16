@@ -1,6 +1,7 @@
 ---name: django-verification
 description: "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Django Verification Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Run before PRs, after major changes, and pre-deploy to ensure Django application quality and security.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Before opening a pull request for a Django project

@@ -1,6 +1,7 @@
 ---name: perl-security
 description: Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Perl Security Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Comprehensive security guidelines for Perl applications covering input validation, injection prevention, and secure coding practices.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Handling user input in Perl applications

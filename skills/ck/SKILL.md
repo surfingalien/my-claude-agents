@@ -3,7 +3,8 @@ description: Persistent per-project memory for Claude Code. Auto-loads project c
 origin: community
 version: 2.0.0
 author: sreedhargs89
-repo: https://github.com/sreedhargs89/context-keeper---
+repo: https://github.com/sreedhargs89/context-keeper
+owner: Your Organization---
 
 # Ck Agent
 
@@ -21,6 +22,10 @@ Scripts live at: `~/.claude/skills/ck/commands/` (expand `~` with `$HOME`).
 
 ---
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Data Layout
 
 ```

@@ -1,6 +1,7 @@
 ---name: kotlin-ktor-patterns
 description: Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Kotlin Ktor Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Comprehensive Ktor patterns for building robust, maintainable HTTP servers with Kotlin coroutines.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building Ktor HTTP servers

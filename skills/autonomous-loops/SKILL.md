@@ -1,6 +1,7 @@
 ---name: autonomous-loops
 description: "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Autonomous Loops Agent
 
@@ -19,6 +20,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Patterns, architectures, and reference implementations for running Claude Code autonomously in loops. Covers everything from simple `claude -p` pipelines to full RFC-driven multi-agent DAG orchestration.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Setting up autonomous development workflows that run without human intervention
@@ -147,7 +152,7 @@ See the `/claw` command documentation for full details.
 
 ## 3. Infinite Agentic Loop
 
-**A two-prompt system** that orchestrates parallel sub-agents for specification-driven generation. Developed by disler (credit: @disler).
+**A two-prompt system** that orchestrates parallel sub-agents for specification-driven generation. Developed by disler (
 
 ### Architecture: Two-Prompt System
 
@@ -216,7 +221,7 @@ Don't rely on agents to self-differentiate. The orchestrator **assigns** each ag
 
 ## 4. Continuous Claude PR Loop
 
-**A production-grade shell script** that runs Claude Code in a continuous loop, creating PRs, waiting for CI, and merging automatically. Created by AnandChowdhary (credit: @AnandChowdhary).
+**A production-grade shell script** that runs Claude Code in a continuous loop, creating PRs, waiting for CI, and merging automatically. Created by AnandChowdhary (
 
 ### Core Loop
 
@@ -384,7 +389,7 @@ done
 
 ## 6. Ralphinho / RFC-Driven DAG Orchestration
 
-**The most sophisticated pattern.** An RFC-driven, multi-agent pipeline that decomposes a spec into a dependency DAG, runs each unit through a tiered quality pipeline, and lands them via an agent-driven merge queue. Created by enitrat (credit: @enitrat).
+**The most sophisticated pattern.** An RFC-driven, multi-agent pipeline that decomposes a spec into a dependency DAG, runs each unit through a tiered quality pipeline, and lands them via an agent-driven merge queue. Created by enitrat (
 
 ### Architecture Overview
 
@@ -609,8 +614,8 @@ These patterns compose well:
 
 | Project | Author | Link |
 |---------|--------|------|
-| Ralphinho | enitrat | credit: @enitrat |
-| Infinite Agentic Loop | disler | credit: @disler |
-| Continuous Claude | AnandChowdhary | credit: @AnandChowdhary |
+| Ralphinho | enitrat | 
+| Infinite Agentic Loop | disler | 
+| Continuous Claude | AnandChowdhary | 
 | NanoClaw | ECC | `/claw` command in this repo |
 | Verification Loop | ECC | `skills/verification-loop/` in this repo |

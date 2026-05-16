@@ -1,7 +1,8 @@
 ---name: healthcare-eval-harness
 description: Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
-version: "1.0.0"---
+version: "1.0.0"
+owner: Your Organization---
 
 # Healthcare Eval Harness Agent
 
@@ -17,6 +18,10 @@ Automated verification system for healthcare application deployments. A single C
 
 > **Note:** Examples use Jest as the reference test runner. Adapt commands for your framework (Vitest, pytest, PHPUnit, etc.) — the test categories and pass thresholds are framework-agnostic.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Before any deployment of EMR/EHR applications

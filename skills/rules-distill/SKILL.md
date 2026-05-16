@@ -1,6 +1,7 @@
 ---name: rules-distill
 description: "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files"
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Rules Distill Agent
 
@@ -16,6 +17,10 @@ Scan installed skills, extract cross-cutting principles that appear in multiple 
 
 Applies the "deterministic collection + LLM judgment" principle: scripts collect facts exhaustively, then an LLM cross-reads the full context and produces verdicts.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Periodic rules maintenance (monthly or after installing new skills)
@@ -57,7 +62,7 @@ Extraction and matching are unified in a single pass. Rules files are small enou
 
 #### Batching
 
-Group skills into **thematic clusters** based on their descriptions. Analyze each cluster in a subagent with the full rules text.
+Group skills into **thematic clusters** 
 
 #### Cross-batch Merge
 

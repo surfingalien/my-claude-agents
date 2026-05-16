@@ -1,6 +1,7 @@
 ---name: ralphinho-rfc-pipeline
 description: RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Ralphinho Rfc Pipeline Agent
 
@@ -12,10 +13,12 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Ralphinho RFC Pipeline
 
-Inspired by [humanplane](https://github.com/humanplane) style RFC decomposition patterns and multi-unit orchestration workflows.
-
 Use this skill when a feature is too large for a single agent pass and must be split into independently verifiable work units.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Pipeline Stages
 
 1. RFC intake

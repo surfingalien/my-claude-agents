@@ -1,6 +1,7 @@
 ---name: codebase-onboarding
 description: Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new project or setting up Claude Code for the first time in a repo.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Codebase Onboarding Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Systematically analyze an unfamiliar codebase and produce a structured onboarding guide. Designed for developers joining a new project or setting up Claude Code in an existing repo for the first time.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - First time opening a project with Claude Code
@@ -72,7 +77,7 @@ From the reconnaissance data, identify:
 **Key Directories**
 Map the top-level directories to their purpose:
 
-<!-- Example for a React project — replace with detected directories -->
+
 ```
 src/components/  → React UI components
 src/api/         → API route handlers
@@ -123,7 +128,7 @@ Produce two outputs:
 [2-3 sentences: what this project does and who it serves]
 
 ## Tech Stack
-<!-- Example for a Next.js project — replace with detected stack -->
+
 | Layer | Technology | Version |
 |-------|-----------|---------|
 | Language | TypeScript | 5.x |
@@ -136,7 +141,7 @@ Produce two outputs:
 [Diagram or description of how components connect]
 
 ## Key Entry Points
-<!-- Example for a Next.js project — replace with detected paths -->
+
 - **API routes**: `src/app/api/` — Next.js route handlers
 - **UI pages**: `src/app/(dashboard)/` — authenticated pages
 - **Database**: `prisma/schema.prisma` — data model source of truth
@@ -155,7 +160,7 @@ Produce two outputs:
 - [Git workflow]
 
 ## Common Tasks
-<!-- Example for a Node.js project — replace with detected commands -->
+
 - **Run dev server**: `npm run dev`
 - **Run tests**: `npm test`
 - **Run linter**: `npm run lint`
@@ -163,7 +168,7 @@ Produce two outputs:
 - **Build for production**: `npm run build`
 
 ## Where to Look
-<!-- Example for a Next.js project — replace with detected paths -->
+
 | I want to... | Look at... |
 |--------------|-----------|
 | Add an API endpoint | `src/app/api/` |
@@ -175,7 +180,7 @@ Produce two outputs:
 
 #### Output 2: Starter CLAUDE.md
 
-Generate or update a project-specific CLAUDE.md based on detected conventions. If `CLAUDE.md` already exists, read it first and enhance it — preserve existing project-specific instructions and clearly call out what was added or changed.
+Generate or update a project-specific CLAUDE.md 
 
 ```markdown
 # Project Instructions

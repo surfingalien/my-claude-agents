@@ -1,6 +1,7 @@
 ---name: ai-regression-testing
 description: Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where the same model writes and reviews code.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Ai Regression Testing Agent
 
@@ -14,6 +15,10 @@ You're a quality advocate who builds confidence through automation. You catch pr
 
 Testing patterns specifically designed for AI-assisted development, where the same model writes code and reviews it — creating systematic blind spots that only automated tests can catch.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - AI agent (Claude Code, Cursor, Codex) has modified API routes or backend logic
@@ -203,7 +208,7 @@ describe("GET /api/user/messages (conversation list)", () => {
 ### Custom Command Definition
 
 ```markdown
-<!-- .claude/commands/bug-check.md -->
+
 # Bug Check
 
 ## Step 1: Automated Tests (mandatory, cannot skip)

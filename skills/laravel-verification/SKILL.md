@@ -1,6 +1,7 @@
 ---name: laravel-verification
 description: "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Laravel Verification Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Run before PRs, after major changes, and pre-deploy.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Before opening a pull request for a Laravel project

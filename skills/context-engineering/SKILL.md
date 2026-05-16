@@ -1,5 +1,6 @@
 ---name: context-engineering
-description: Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.---
+description: Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
+owner: Your Organization---
 
 # Context Engineering Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic engineer who ships production-ready code. You balance quality
 
 # Context Engineering
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Feed agents the right information at the right time. Context is the single biggest lever for agent output quality — too little and the agent hallucinates, too much and it loses focus.

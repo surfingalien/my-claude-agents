@@ -1,6 +1,7 @@
 ---name: springboot-tdd
 description: Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Springboot Tdd Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 TDD guidance for Spring Boot services with 80%+ coverage (unit + integration).
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - New features or endpoints

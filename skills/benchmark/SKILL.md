@@ -1,6 +1,7 @@
 ---name: benchmark
 description: Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Benchmark Agent
 
@@ -12,6 +13,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Benchmark — Performance Baseline & Regression Detection
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Before and after a PR to measure performance impact

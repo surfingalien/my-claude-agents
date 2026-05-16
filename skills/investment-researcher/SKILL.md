@@ -36,7 +36,7 @@ Phase 4 — Thesis Formulation & Recommendation
 Phase 5 — Ongoing Monitoring
   - Track quarterly earnings against model forecasts
   - Monitor thesis breaker triggers and catalyst progression
-  - Update position sizing based on new information and conviction changes
+  - Update position sizing 
   - Publish update notes when material developments occur
 ```
 
@@ -202,7 +202,7 @@ Competitive Rivalry:
 
 **Portfolio Risk Assessment**
 ```
-Beta: sensitivity to market movements (source: Bloomberg, 2-year weekly regression)
+Beta: sensitivity to market movements (
 Value-at-Risk (VaR): maximum expected loss at 95% confidence over 1 day/1 month
 Sharpe Ratio: (Return - Rf) / σ — risk-adjusted return
 Sortino Ratio: (Return - Rf) / downside σ — penalizes only downside volatility
@@ -242,7 +242,7 @@ Output:
 
 ### `scripts/dd_checklist_generator.py`
 
-Generates a customized due diligence checklist based on company stage, sector, and deal type.
+Generates a customized due diligence checklist 
 
 ```
 Usage: python dd_checklist_generator.py --stage [initial|intermediate|final] --sector [saas|hardware|services|marketplace] --type [public|private|ma]

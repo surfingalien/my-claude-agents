@@ -1,5 +1,6 @@
 ---description: "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Skill Stocktake Agent
 
@@ -13,6 +14,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Slash command (`/skill-stocktake`) that audits all Claude skills and commands using a quality checklist + AI holistic judgment. Supports two modes: Quick Scan for recently changed skills, and Full Stocktake for a complete review.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Scope
 
 The command targets the following paths **relative to the directory where it is invoked**:

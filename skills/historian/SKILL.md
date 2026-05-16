@@ -79,7 +79,7 @@ COHERENCE CHECK
 Claim: [Statement being evaluated]
 Verdict: Accurate / Partially accurate / Anachronistic / Myth
 Evidence: [Source and reasoning]
-  - Primary source: [Document, artifact, archaeological evidence]
+  - Primary 
   - Secondary scholarship: [Historian and work]
   - Confidence: High / Medium / Low — and why
 If fictional/inspired: [What historical parallels exist, what diverges]

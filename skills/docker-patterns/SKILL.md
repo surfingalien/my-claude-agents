@@ -1,6 +1,7 @@
 ---name: docker-patterns
 description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Docker Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Docker and Docker Compose best practices for containerized development.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Setting up Docker Compose for local development

@@ -1,6 +1,7 @@
 ---name: django-patterns
 description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Django Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Production-grade Django architecture patterns for scalable, maintainable applications.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building Django web applications
@@ -412,7 +417,7 @@ class ProductViewSet(viewsets.ModelViewSet):
     ordering = ['-created_at']
 
     def get_serializer_class(self):
-        """Return appropriate serializer based on action."""
+        """Return appropriate serializer 
         if self.action == 'create':
             return ProductCreateSerializer
         return ProductSerializer

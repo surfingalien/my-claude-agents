@@ -47,7 +47,7 @@ Physical Geography:
   - E: Polar (no warm season)
 - Hydrology: [River systems, watersheds, water sources — no impossible splits]
 - Biome: [Vegetation type consistent with climate and soil]
-- Natural Hazards: [Earthquakes, volcanoes, floods, droughts — based on geography]
+- Natural Hazards: [Earthquakes, volcanoes, floods, droughts — 
 
 Resource Distribution:
 - Agricultural potential: [Soil quality, growing season, rainfall — Fertile Crescent logic]

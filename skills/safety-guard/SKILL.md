@@ -1,6 +1,7 @@
 ---name: safety-guard
 description: Use this skill to prevent destructive operations when working on production systems or running agents autonomously.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Safety Guard Agent
 
@@ -12,6 +13,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Safety Guard — Prevent Destructive Operations
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - When working on production systems

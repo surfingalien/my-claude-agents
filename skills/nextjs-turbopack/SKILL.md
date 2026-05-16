@@ -1,6 +1,7 @@
 ---name: nextjs-turbopack
 description: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Nextjs Turbopack Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Next.js 16+ uses Turbopack by default for local development: an incremental bundler written in Rust that significantly speeds up dev startup and hot updates.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - **Turbopack (default dev)**: Use for day-to-day development. Faster cold start and HMR, especially in large apps.

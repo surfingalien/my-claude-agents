@@ -1,6 +1,7 @@
 ---name: claude-api
 description: Anthropic Claude API patterns for Python and TypeScript. Covers Messages API, streaming, tool use, vision, extended thinking, batches, prompt caching, and Claude Agent SDK. Use when building applications with the Claude API or Anthropic SDKs.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Claude Api Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Build applications with the Anthropic Claude API and SDKs.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building applications that call the Claude API

@@ -1,5 +1,6 @@
 ---name: shipping-and-launch
-description: Manages the final phase of shipping features safely. Use when preparing to merge and deploy a change to production. Covers pre-launch checklists, feature flag lifecycle, staged rollouts, and rollback procedures.---
+description: Manages the final phase of shipping features safely. Use when preparing to merge and deploy a change to production. Covers pre-launch checklists, feature flag lifecycle, staged rollouts, and rollback procedures.
+owner: Your Organization---
 
 # Shipping And Launch Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Shipping and Launch
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Shipping is not "it works on my machine." Shipping is the complete process from code-complete to production traffic flowing through the new code, with a rollback plan ready.

@@ -1,5 +1,6 @@
 ---name: using-agent-skills
-description: Meta-skill for discovering and applying other skills. Use this skill to understand how to find, load, and combine skills effectively. Use when starting a new session, when unsure which skill applies, or when coordinating multiple skills.---
+description: Meta-skill for discovering and applying other skills. Use this skill to understand how to find, load, and combine skills effectively. Use when starting a new session, when unsure which skill applies, or when coordinating multiple skills.
+owner: Your Organization---
 
 # Using Agent Skills Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Using Agent Skills
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 This meta-skill explains how to navigate and use the skill library. Skills are modular, composable tools — each is self-contained with documentation, examples, and verification checklists. Knowing how to find the right skill and apply it correctly multiplies the effectiveness of every session.

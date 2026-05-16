@@ -1,6 +1,7 @@
 ---name: tdd-workflow
 description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Tdd Workflow Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 This skill ensures all code development follows TDD principles with comprehensive test coverage.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Writing new features or functionality

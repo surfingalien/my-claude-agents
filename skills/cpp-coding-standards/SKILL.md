@@ -1,6 +1,7 @@
 ---name: cpp-coding-standards
-description: C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.
-origin: ECC---
+description: C++ coding standards 
+origin: ECC
+owner: Your Organization---
 
 # Cpp Coding Standards Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Comprehensive coding standards for modern C++ (C++17/20/23) derived from the [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines). Enforces type safety, resource safety, immutability, and clarity.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Writing new C++ code (classes, functions, templates)
@@ -392,7 +397,7 @@ void run() {
 - Catching by value (slicing risk) (E.15)
 - Empty catch blocks that silently swallow errors
 - Using exceptions for flow control (E.3)
-- Error handling based on global state like `errno` (E.28)
+- Error handling 
 
 ## Constants & Immutability (Con.*)
 

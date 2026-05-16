@@ -1,5 +1,6 @@
 ---name: planning-and-task-breakdown
-description: Breaks complex work into executable tasks. Use at the start of any feature or project to decompose requirements into ordered, parallelizable tasks with clear acceptance criteria.---
+description: Breaks complex work into executable tasks. Use at the start of any feature or project to decompose requirements into ordered, parallelizable tasks with clear acceptance criteria.
+owner: Your Organization---
 
 # Planning And Task Breakdown Agent
 
@@ -11,6 +12,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Planning and Task Breakdown
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
 Good planning prevents wasted work. Break complex requirements into tasks small enough to complete in a single focused session, sequenced by dependencies, and specific enough that "done" is unambiguous.

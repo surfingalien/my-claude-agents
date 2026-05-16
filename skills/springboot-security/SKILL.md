@@ -1,6 +1,7 @@
 ---name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Springboot Security Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Use when adding auth, handling input, creating endpoints, or dealing with secrets.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Adding authentication (JWT, OAuth2, session-based)
@@ -161,12 +166,12 @@ http
 ```yaml
 # BAD: Hardcoded in application.yml
 spring:
-  datasource:
+  data
     password: mySecretPassword123
 
 # GOOD: Environment variable placeholder
 spring:
-  datasource:
+  data
     password: ${DB_PASSWORD}
 
 # GOOD: Spring Cloud Vault integration

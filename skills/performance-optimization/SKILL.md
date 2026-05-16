@@ -1,5 +1,6 @@
 ---name: performance-optimization
-description: Optimizes application performance. Use when investigating slow load times, runtime lag, or poor Core Web Vitals scores. Always measure first — never optimize without data.---
+description: Optimizes application performance. Use when investigating slow load times, runtime lag, or poor Core Web Vitals scores. Always measure first — never optimize without data.
+owner: Your Organization---
 
 # Performance Optimization Agent
 
@@ -11,9 +12,13 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 # Performance Optimization
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Overview
 
-Measure first. Never optimize based on intuition. Every optimization should be driven by a measured baseline, a specific target, and a measured result that confirms improvement.
+Measure first. Never optimize 
 
 **The Golden Rule:** A perceived performance improvement that isn't measured is not a performance improvement — it's a guess.
 
@@ -42,10 +47,10 @@ Measure first. Never optimize based on intuition. Every optimization should be d
 The LCP element is usually a hero image or large heading. Make it load as fast as possible.
 
 ```html
-<!-- Preload the LCP image -->
+
 <link rel="preload" as="image" href="/hero.webp" fetchpriority="high">
 
-<!-- Correct img attributes -->
+
 <img
   src="/hero.webp"
   alt="Hero"
@@ -91,15 +96,15 @@ async function processLargeList(items: Item[]) {
 Cumulative Layout Shift happens when elements move unexpectedly after initial render.
 
 ```html
-<!-- Always set width and height on images -->
+
 <img src="/photo.jpg" width="400" height="300" alt="Photo">
 
-<!-- Reserve space for ads/embeds -->
+
 <div style="min-height: 250px;">
-  <!-- ad loads here -->
+  
 </div>
 
-<!-- Avoid inserting content above existing content -->
+
 ```
 
 **CLS root causes:**
@@ -149,14 +154,14 @@ const TaskRow = memo(function TaskRow({ task, onComplete }: Props) {
 ## Image Optimization
 
 ```html
-<!-- Modern format with fallback -->
+
 <picture>
   <source srcset="/image.avif" type="image/avif">
   <source srcset="/image.webp" type="image/webp">
   <img src="/image.jpg" alt="Description" width="800" height="600" loading="lazy">
 </picture>
 
-<!-- Responsive images -->
+
 <img
   src="/hero-800.webp"
   srcset="/hero-400.webp 400w, /hero-800.webp 800w, /hero-1600.webp 1600w"

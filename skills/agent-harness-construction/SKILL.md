@@ -1,6 +1,7 @@
 ---name: agent-harness-construction
 description: Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Agent Harness Construction Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Use this skill when you are improving how an agent plans, calls tools, recovers from errors, and converges on completion.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Core Model
 
 Agent output quality is constrained by:

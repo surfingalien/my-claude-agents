@@ -1,6 +1,7 @@
 ---name: springboot-verification
 description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Springboot Verification Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Run before PRs, after major changes, and pre-deploy.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Before opening a pull request for a Spring Boot service

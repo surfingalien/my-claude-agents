@@ -10,28 +10,28 @@ Provides cockpit-based immersive control system design for XR environments using
 
 **Fixed-Perspective Scene Setup (A-Frame)**
 ```html
-<!-- Cockpit anchored to camera rig — world moves, cockpit stays -->
+
 <a-scene>
-  <!-- Camera rig: player root -->
+  
   <a-entity id="rig" position="0 0 0">
     <a-camera id="camera" position="0 1.6 0" look-controls>
       
-      <!-- Cockpit frame attached to camera — always in view -->
+      
       <a-entity id="cockpit-frame" position="0 -0.3 -0.6">
         
-        <!-- Dashboard panel: 60° field in front -->
+        
         <a-entity id="dashboard" 
           geometry="primitive: plane; width: 1.2; height: 0.5"
           position="0 0 0"
           material="color: #1a1a2e; metalness: 0.8; roughness: 0.2">
         </a-entity>
         
-        <!-- Left console: within reach zone -->
+        
         <a-entity id="left-console" position="-0.55 -0.1 0.05" 
           rotation="0 25 -10">
         </a-entity>
         
-        <!-- Right console: within reach zone -->
+        
         <a-entity id="right-console" position="0.55 -0.1 0.05"
           rotation="0 -25 10">
         </a-entity>

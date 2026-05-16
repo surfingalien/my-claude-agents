@@ -1,6 +1,7 @@
 ---name: flutter-dart-code-review
 description: Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Flutter Dart Code Review Agent
 
@@ -16,6 +17,10 @@ Comprehensive, library-agnostic checklist for reviewing Flutter/Dart application
 
 ---
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## 1. General Project Health
 
 - [ ] Project follows consistent folder structure (feature-first or layer-first)
@@ -68,7 +73,7 @@ Comprehensive, library-agnostic checklist for reviewing Flutter/Dart application
 - [ ] `ValueKey` used in lists/grids to preserve state across reorders
 - [ ] `GlobalKey` used sparingly — only when accessing state across the tree is truly needed
 - [ ] `UniqueKey` avoided in `build()` — it forces rebuild every frame
-- [ ] `ObjectKey` used when identity is based on a data object rather than a single value
+- [ ] `ObjectKey` used when identity is 
 
 ### Theming & design system:
 - [ ] Colors come from `Theme.of(context).colorScheme` — no hardcoded `Colors.red` or hex values

@@ -1,6 +1,7 @@
 ---name: android-clean-architecture
 description: Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Android Clean Architecture Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Clean Architecture patterns for Android and KMP projects. Covers module boundaries, dependency inversion, UseCase/Repository patterns, and data layer design with Room, SQLDelight, and Ktor.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Structuring Android or KMP project modules
@@ -114,8 +119,8 @@ Coordinates between local and remote data sources:
 
 ```kotlin
 class ItemRepositoryImpl(
-    private val localDataSource: ItemLocalDataSource,
-    private val remoteDataSource: ItemRemoteDataSource
+    private val localData
+    private val remoteData
 ) : ItemRepository {
 
     override suspend fun getItemsByCategory(category: String): Result<List<Item>> {

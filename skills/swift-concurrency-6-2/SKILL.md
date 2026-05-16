@@ -1,5 +1,6 @@
 ---name: swift-concurrency-6-2
-description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.---
+description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.
+owner: Your Organization---
 
 # Swift Concurrency 6 2 Agent
 
@@ -13,6 +14,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Patterns for adopting Swift 6.2's concurrency model where code runs single-threaded by default and concurrency is introduced explicitly. Eliminates common data-race errors without sacrificing performance.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Migrating Swift 5.x or 6.0/6.1 projects to Swift 6.2

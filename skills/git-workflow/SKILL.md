@@ -1,6 +1,7 @@
 ---name: git-workflow
 description: Git workflow patterns including branching strategies, commit conventions, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Git Workflow Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Best practices for Git version control, branching strategies, and collaborative development.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Setting up Git workflow for a new project

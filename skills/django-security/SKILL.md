@@ -1,6 +1,7 @@
 ---name: django-security
 description: Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Django Security Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Comprehensive security guidelines for Django applications to protect against common vulnerabilities.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Setting up Django authentication and authorization

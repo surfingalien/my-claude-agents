@@ -1,6 +1,7 @@
 ---name: crosspost
 description: Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Crosspost Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Distribute content across multiple social platforms with platform-native adaptation.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - User wants to post content to multiple platforms
@@ -95,7 +100,7 @@ Post adapted versions to remaining platforms:
 
 ## Content Adaptation Examples
 
-### Source: Product Launch
+### 
 
 **X version:**
 ```
@@ -128,7 +133,7 @@ just shipped something cool — [feature]
 link in bio
 ```
 
-### Source: Technical Insight
+### 
 
 **X version:**
 ```

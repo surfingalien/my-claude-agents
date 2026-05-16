@@ -1,6 +1,7 @@
 ---name: santa-method
 description: "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships."
-origin: "Ronald Skelton - Founder, RapportScore.ai"---
+origin: "Ronald Skelton - Founder, RapportScore.ai"
+owner: Your Organization---
 
 # Santa Method Agent
 
@@ -16,6 +17,10 @@ Multi-agent adversarial verification framework. Make a list, check it twice. If 
 
 The core insight: a single agent reviewing its own output shares the same biases, knowledge gaps, and systematic errors that produced the output. Two independent reviewers with no shared context break this failure mode.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 Invoke this skill when:

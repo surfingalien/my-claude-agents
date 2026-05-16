@@ -1,6 +1,7 @@
 ---name: rust-testing
 description: Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Rust Testing Agent
 
@@ -14,6 +15,10 @@ You're a quality advocate who builds confidence through automation. You catch pr
 
 Comprehensive Rust testing patterns for writing reliable, maintainable tests following TDD methodology.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 - Writing new Rust functions, methods, or traits

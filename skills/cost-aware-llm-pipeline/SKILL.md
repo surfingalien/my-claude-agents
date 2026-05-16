@@ -1,6 +1,7 @@
 ---name: cost-aware-llm-pipeline
 description: Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Cost Aware Llm Pipeline Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Patterns for controlling LLM API costs while maintaining quality. Combines model routing, budget tracking, retry logic, and prompt caching into a composable pipeline.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Building applications that call LLM APIs (Claude, GPT, etc.)
@@ -39,7 +44,7 @@ def select_model(
     item_count: int,
     force_model: str | None = None,
 ) -> str:
-    """Select model based on task complexity."""
+    """Select model 
     if force_model is not None:
         return force_model
     if text_length >= _SONNET_TEXT_THRESHOLD or item_count >= _SONNET_ITEM_THRESHOLD:
@@ -169,7 +174,7 @@ def process(text: str, config: Config, tracker: CostTracker) -> tuple[Result, Co
 
 - **Start with the cheapest model** and only route to expensive models when complexity thresholds are met
 - **Set explicit budget limits** before processing batches — fail early rather than overspend
-- **Log model selection decisions** so you can tune thresholds based on real data
+- **Log model selection decisions** so you can tune thresholds 
 - **Use prompt caching** for system prompts over 1024 tokens — saves both cost and latency
 - **Never retry on authentication or validation errors** — only transient failures (network, rate limit, server error)
 

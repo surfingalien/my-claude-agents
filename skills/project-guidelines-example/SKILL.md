@@ -1,6 +1,7 @@
 ---name: project-guidelines-example
-description: "Example project-specific skill template based on a real production application."
-origin: ECC---
+description: "Example project-specific skill template 
+origin: ECC
+owner: Your Organization---
 
 # Project Guidelines Example Agent
 
@@ -14,8 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 This is an example of a project-specific skill. Use this as a template for your own projects.
 
-Based on a real production application: [Zenith](https://zenith.chat) - AI-powered customer discovery platform.
 
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Use
 
 Reference this skill when working on the specific project it's designed for. Project skills contain:

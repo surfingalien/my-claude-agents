@@ -1,6 +1,7 @@
 ---name: enterprise-agent-ops
 description: Operate long-lived agent workloads with observability, security boundaries, and lifecycle management.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Enterprise Agent Ops Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Use this skill for cloud-hosted or continuously running agent systems that need operational controls beyond single CLI sessions.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Operational Domains
 
 1. runtime lifecycle (start, pause, stop, restart)

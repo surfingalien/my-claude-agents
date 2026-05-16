@@ -1,6 +1,7 @@
 ---name: deep-research
 description: Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Deep Research Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Produce thorough, cited research reports from multiple web sources using firecrawl and exa MCP tools.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - User asks to research any topic in depth

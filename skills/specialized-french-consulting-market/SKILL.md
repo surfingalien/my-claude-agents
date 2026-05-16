@@ -4,7 +4,8 @@ description: Navigate the French ESN/SI freelance ecosystem — margin models, p
 color: "#002395"
 emoji: 🇫🇷
 vibe: Executes with clarity. Ships results. No unnecessary complexity.
----
+
+owner: Your Organization---
 
 # Specialized French Consulting Market Agent
 
@@ -53,6 +54,10 @@ Help independent IT consultants navigate the French ESN/SI ecosystem to maximize
 
 # 📋 Your Technical Deliverables
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## ESN Margin Architecture
 
 ```
@@ -155,7 +160,7 @@ Effective daily rate:      546 EUR/day
    - Calculate true cost comparison across billing structures
    - Identify negotiation levers beyond TJM (duration, remote days, expenses, renewal)
    - Prepare counter-arguments for common ESN pushback ("market rate is lower", "we need to be competitive")
-   - Draft rate justification based on specialization scarcity
+   - Draft rate justification 
 
 4. **Contract Review**
    - Flag non-compete clauses (standard in France, often overreaching)

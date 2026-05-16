@@ -1,6 +1,7 @@
 ---name: deployment-patterns
 description: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # Deployment Patterns Agent
 
@@ -14,6 +15,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 Production deployment workflows and CI/CD best practices.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Setting up CI/CD pipelines

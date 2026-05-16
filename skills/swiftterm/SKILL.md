@@ -45,12 +45,12 @@ struct TerminalView: UIViewRepresentable {
         init(session: TerminalSession) { self.session = session }
 
         // Forward terminal data to SSH/process
-        func send(source: TerminalView, data: ArraySlice<UInt8>) {
+        func send(
             session.write(data: Data(data))
         }
 
         // Handle title changes from remote (OSC 2)
-        func setTerminalTitle(source: TerminalView, title: String) {
+        func setTerminalTitle(
             DispatchQueue.main.async { self.session.title = title }
         }
     }
@@ -84,7 +84,7 @@ class SSHTerminalBridge {
 }
 
 extension SSHTerminalBridge: TerminalViewDelegate {
-    func send(source: TerminalView, data: ArraySlice<UInt8>) {
+    func send(
         // Run on background to avoid blocking UI
         Task.detached {
             try? await self.sshChannel.write(Data(data))
@@ -96,7 +96,7 @@ extension SSHTerminalBridge: TerminalViewDelegate {
 **Resize Handling**
 ```swift
 // Notify SSH server when terminal window resizes
-func terminalSizeChanged(source: TerminalView, newCols: Int, newRows: Int) {
+func terminalSizeChanged(
     Task {
         // Tell remote PTY to resize
         try? await sshChannel.sendWindowChangeRequest(
@@ -236,7 +236,7 @@ OSC (Operating System Command):
 // SwiftTerm's TerminalAccessibility protocol
 extension TerminalViewController: TerminalViewDelegate {
     // VoiceOver reads terminal output as it arrives
-    func scrolled(source: TerminalView, position: Double) {
+    func scrolled(
         // Announce scroll position to VoiceOver
         UIAccessibility.post(notification: .pageScrolled, argument: nil)
     }
@@ -262,7 +262,7 @@ Output:
   - Swift code for terminal configuration
   - Theme color definitions (all 256 colors)
   - Font and size recommendations
-  - Scrollback settings based on device memory tier
+  - Scrollback settings 
   - Accessibility configuration checklist
 ```
 

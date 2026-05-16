@@ -1,7 +1,8 @@
 ---name: continuous-learning-v2
 description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.
 origin: ECC
-version: 2.1.0---
+version: 2.1.0
+owner: Your Organization---
 
 # Continuous Learning V2 Agent
 
@@ -18,6 +19,10 @@ An advanced learning system that turns your Claude Code sessions into reusable k
 
 **v2.1** adds **project-scoped instincts** — React patterns stay in your React project, Python conventions stay in your Python project, and universal patterns (like "always validate input") are shared globally.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to Activate
 
 - Setting up automatic learning from Claude Code sessions
@@ -60,7 +65,6 @@ id: prefer-functional-style
 trigger: "when writing new functions"
 confidence: 0.7
 domain: "code-style"
-source: "session-observation"
 scope: project
 project_id: "a1b2c3d4e5f6"
 project_name: "my-react-app"
@@ -337,7 +341,7 @@ Confidence evolves over time:
 
 ## Why Hooks vs Skills for Observation?
 
-> "v1 relied on skills to observe. Skills are probabilistic -- they fire ~50-80% of the time based on Claude's judgment."
+> "v1 relied on skills to observe. Skills are probabilistic -- they fire ~50-80% of the time 
 
 Hooks fire **100% of the time**, deterministically. This means:
 - Every tool call is observed

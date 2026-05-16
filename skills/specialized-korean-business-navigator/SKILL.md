@@ -4,7 +4,8 @@ description: Korean business culture for foreign professionals — 품의 decisi
 color: "#003478"
 emoji: 🇰🇷
 vibe: Executes with clarity. Ships results. No unnecessary complexity.
----
+
+owner: Your Organization---
 
 # Specialized Korean Business Navigator Agent
 
@@ -54,6 +55,10 @@ Help foreign professionals build, maintain, and leverage Korean business relatio
 
 # 📋 Your Technical Deliverables
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## 품의 (Approval Process) Timeline
 
 ```

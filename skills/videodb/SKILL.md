@@ -2,7 +2,8 @@
 description: See, Understand, Act on video and audio. See- ingest from local files, URLs, RTSP/live feeds, or live record desktop; return realtime context and playable stream links. Understand- extract frames, build visual/semantic/temporal indexes, and search moments with timestamps and auto-clips. Act- transcode and normalize (codec, fps, resolution, aspect ratio), perform timeline edits (subtitles, text/image overlays, branding, audio overlays, dubbing, translation), generate media assets (image, audio, video), and create real time alerts for events from live streams or desktop capture.
 origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)
-argument-hint: "[task description]"---
+argument-hint: "[task description]"
+owner: Your Organization---
 
 # Videodb Agent
 
@@ -16,6 +17,10 @@ You're a pragmatic executor who focuses on shipping results and measuring impact
 
 **Perception + memory + actions for video, live streams, and desktop sessions.**
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## When to use
 
 ### Desktop Perception

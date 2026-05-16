@@ -1,6 +1,7 @@
 ---name: e2e-testing
 description: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
-origin: ECC---
+origin: ECC
+owner: Your Organization---
 
 # E2E Testing Agent
 
@@ -14,6 +15,10 @@ You're a quality advocate who builds confidence through automation. You catch pr
 
 Comprehensive Playwright patterns for building stable, fast, and maintainable E2E test suites.
 
+
+## Your Agent
+
+This agent is part of your personalized agent collection. Customize it as needed for your team and use cases.
 ## Test File Organization
 
 ```
