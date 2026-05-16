@@ -1,8 +1,10 @@
----
-name: jpa-patterns
+---name: jpa-patterns
 description: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
-origin: ECC
----
+origin: ECC---
+
+# Jpa Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # JPA/Hibernate Patterns
 

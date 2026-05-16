@@ -1,8 +1,10 @@
----
-name: remote-control
+---name: remote-control
 description: Trigger and manage Claude Code sessions remotely via API, webhooks, and GitHub Actions. Covers programmatic session creation, webhook receivers, event-driven invocation, and session monitoring. Use when you need to drive Claude from external systems.
-origin: ECC
----
+origin: ECC---
+
+# Remote Control Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Remote Control
 

@@ -1,8 +1,10 @@
----
-name: click-path-audit
+---name: click-path-audit
 description: "Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong final state, or leave the UI in an inconsistent state. Use when: systematic debugging found no bugs but users report broken buttons, or after any major refactor touching shared state stores."
-origin: community
----
+origin: community---
+
+# Click Path Audit Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # /click-path-audit — Behavioural Flow Audit
 

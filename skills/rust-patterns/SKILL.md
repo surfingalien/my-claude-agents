@@ -1,8 +1,10 @@
----
-name: rust-patterns
+---name: rust-patterns
 description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.
-origin: ECC
----
+origin: ECC---
+
+# Rust Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Rust Development Patterns
 

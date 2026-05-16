@@ -1,5 +1,4 @@
----
-name: customs-trade-compliance
+---name: customs-trade-compliance
 description: >
   Codified expertise for customs documentation, tariff classification, duty
   optimization, restricted party screening, and regulatory compliance across
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Customs Trade Compliance Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Customs & Trade Compliance
 

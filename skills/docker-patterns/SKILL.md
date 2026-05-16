@@ -1,8 +1,10 @@
----
-name: docker-patterns
+---name: docker-patterns
 description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
-origin: ECC
----
+origin: ECC---
+
+# Docker Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Docker Patterns
 

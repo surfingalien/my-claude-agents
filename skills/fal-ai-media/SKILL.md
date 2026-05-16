@@ -1,8 +1,10 @@
----
-name: fal-ai-media
+---name: fal-ai-media
 description: Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos, or audio with AI.
-origin: ECC
----
+origin: ECC---
+
+# Fal Ai Media Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # fal.ai Media Generation
 

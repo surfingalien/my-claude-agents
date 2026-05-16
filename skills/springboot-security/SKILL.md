@@ -1,8 +1,10 @@
----
-name: springboot-security
+---name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
-origin: ECC
----
+origin: ECC---
+
+# Springboot Security Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Spring Boot Security Review
 

@@ -1,5 +1,4 @@
----
-name: blueprint
+---name: blueprint
 description: >-
   Turn a one-line objective into a step-by-step construction plan for
   multi-session, multi-agent engineering projects. Each step has a
@@ -10,8 +9,11 @@ description: >-
   complex multi-PR task, or describes work that needs multiple sessions.
   DO NOT TRIGGER when: task is completable in a single PR or fewer
   than 3 tool calls, or user says "just do it".
-origin: community
----
+origin: community---
+
+# Blueprint Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Blueprint — Construction Plan Generator
 

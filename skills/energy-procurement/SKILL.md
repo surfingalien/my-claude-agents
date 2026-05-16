@@ -1,5 +1,4 @@
----
-name: energy-procurement
+---name: energy-procurement
 description: >
   Codified expertise for electricity and gas procurement, tariff optimization,
   demand charge management, renewable PPA evaluation, and multi-facility energy
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Energy Procurement Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Energy Procurement
 

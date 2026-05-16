@@ -1,8 +1,10 @@
----
-name: iterative-retrieval
+---name: iterative-retrieval
 description: Pattern for progressively refining context retrieval to solve the subagent context problem
-origin: ECC
----
+origin: ECC---
+
+# Iterative Retrieval Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Iterative Retrieval Pattern
 

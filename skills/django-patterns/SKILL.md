@@ -1,8 +1,10 @@
----
-name: django-patterns
+---name: django-patterns
 description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
-origin: ECC
----
+origin: ECC---
+
+# Django Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Django Development Patterns
 

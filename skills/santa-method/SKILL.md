@@ -1,8 +1,10 @@
----
-name: santa-method
+---name: santa-method
 description: "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships."
-origin: "Ronald Skelton - Founder, RapportScore.ai"
----
+origin: "Ronald Skelton - Founder, RapportScore.ai"---
+
+# Santa Method Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Santa Method
 

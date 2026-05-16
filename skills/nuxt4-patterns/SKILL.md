@@ -1,8 +1,10 @@
----
-name: nuxt4-patterns
+---name: nuxt4-patterns
 description: Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading, and SSR-safe data fetching with useFetch and useAsyncData.
-origin: ECC
----
+origin: ECC---
+
+# Nuxt4 Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Nuxt 4 Patterns
 

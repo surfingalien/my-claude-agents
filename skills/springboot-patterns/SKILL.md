@@ -1,8 +1,10 @@
----
-name: springboot-patterns
+---name: springboot-patterns
 description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
-origin: ECC
----
+origin: ECC---
+
+# Springboot Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Spring Boot Development Patterns
 

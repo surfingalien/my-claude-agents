@@ -1,8 +1,10 @@
----
-name: swift-actor-persistence
+---name: swift-actor-persistence
 description: Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.
-origin: ECC
----
+origin: ECC---
+
+# Swift Actor Persistence Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Swift Actors for Thread-Safe Persistence
 

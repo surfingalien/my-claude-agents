@@ -1,8 +1,10 @@
----
-name: database-migrations
+---name: database-migrations
 description: Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Kysely, Django, TypeORM, golang-migrate).
-origin: ECC
----
+origin: ECC---
+
+# Database Migrations Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Database Migration Patterns
 

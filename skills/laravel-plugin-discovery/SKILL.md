@@ -1,8 +1,10 @@
----
-name: laravel-plugin-discovery
+---name: laravel-plugin-discovery
 description: Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility.
-origin: ECC
----
+origin: ECC---
+
+# Laravel Plugin Discovery Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Laravel Plugin Discovery
 

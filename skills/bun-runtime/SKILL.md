@@ -1,8 +1,10 @@
----
-name: bun-runtime
+---name: bun-runtime
 description: Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.
-origin: ECC
----
+origin: ECC---
+
+# Bun Runtime Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Bun Runtime
 

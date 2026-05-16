@@ -1,8 +1,10 @@
----
-name: web-quality
+---name: web-quality
 description: Comprehensive web quality auditing covering Core Web Vitals, Lighthouse performance, JavaScript bundle analysis, image optimization, and accessibility. Use when diagnosing slow pages, oversized bundles, or accessibility failures.
-origin: ECC
----
+origin: ECC---
+
+# Web Quality Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Web Quality
 

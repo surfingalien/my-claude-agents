@@ -1,8 +1,10 @@
----
-name: golang-testing
+---name: golang-testing
 description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
-origin: ECC
----
+origin: ECC---
+
+# Golang Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # Go Testing Patterns
 

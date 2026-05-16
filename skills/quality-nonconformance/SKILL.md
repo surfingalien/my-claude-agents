@@ -1,5 +1,4 @@
----
-name: quality-nonconformance
+---name: quality-nonconformance
 description: >
   Codified expertise for quality control, non-conformance investigation, root
   cause analysis, corrective action, and supplier quality management in
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Quality Nonconformance Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Quality & Non-Conformance Management
 

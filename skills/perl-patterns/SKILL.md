@@ -1,8 +1,10 @@
----
-name: perl-patterns
+---name: perl-patterns
 description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
-origin: ECC
----
+origin: ECC---
+
+# Perl Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Modern Perl Development Patterns
 

@@ -1,5 +1,4 @@
----
-name: logistics-exception-management
+---name: logistics-exception-management
 description: >
   Codified expertise for handling freight exceptions, shipment delays,
   damages, losses, and carrier disputes. Informed by logistics professionals
@@ -14,8 +13,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Logistics Exception Management Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Logistics Exception Management
 

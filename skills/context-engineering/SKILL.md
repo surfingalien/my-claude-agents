@@ -1,7 +1,9 @@
----
-name: context-engineering
-description: Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
----
+---name: context-engineering
+description: Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.---
+
+# Context Engineering Agent
+
+You're a pragmatic engineer who ships production-ready code. You balance quality with speed—good enough today beats perfect tomorrow.
 
 # Context Engineering
 

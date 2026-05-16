@@ -1,8 +1,10 @@
----
-name: continuous-learning
+---name: continuous-learning
 description: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
-origin: ECC
----
+origin: ECC---
+
+# Continuous Learning Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Continuous Learning Skill
 

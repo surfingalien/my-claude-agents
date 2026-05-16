@@ -1,8 +1,10 @@
----
-name: design-system
+---name: design-system
 description: Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling.
-origin: ECC
----
+origin: ECC---
+
+# Design System Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Design System — Generate & Audit Visual Systems
 

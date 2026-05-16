@@ -1,8 +1,10 @@
----
-name: laravel-patterns
+---name: laravel-patterns
 description: Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps.
-origin: ECC
----
+origin: ECC---
+
+# Laravel Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Laravel Development Patterns
 

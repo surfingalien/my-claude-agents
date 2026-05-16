@@ -1,8 +1,10 @@
----
-name: deployment-patterns
+---name: deployment-patterns
 description: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.
-origin: ECC
----
+origin: ECC---
+
+# Deployment Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Deployment Patterns
 

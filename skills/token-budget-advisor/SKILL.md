@@ -1,5 +1,4 @@
----
-name: token-budget-advisor
+---name: token-budget-advisor
 description: >-
   Offers the user an informed choice about how much response depth to
   consume before answering. Use this skill when the user explicitly
@@ -13,8 +12,11 @@ description: >-
   DO NOT TRIGGER when: user has already specified a level in the current
   session (maintain it), the request is clearly a one-word answer, or
   "token" refers to auth/session/payment tokens rather than response size.
-origin: community
----
+origin: community---
+
+# Token Budget Advisor Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Token Budget Advisor (TBA)
 

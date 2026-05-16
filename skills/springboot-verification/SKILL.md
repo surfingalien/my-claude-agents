@@ -1,8 +1,10 @@
----
-name: springboot-verification
+---name: springboot-verification
 description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
-origin: ECC
----
+origin: ECC---
+
+# Springboot Verification Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Spring Boot Verification Loop
 

@@ -1,8 +1,10 @@
----
-name: ralphinho-rfc-pipeline
+---name: ralphinho-rfc-pipeline
 description: RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration.
-origin: ECC
----
+origin: ECC---
+
+# Ralphinho Rfc Pipeline Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Ralphinho RFC Pipeline
 

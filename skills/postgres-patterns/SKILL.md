@@ -1,8 +1,10 @@
----
-name: postgres-patterns
+---name: postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
-origin: ECC
----
+origin: ECC---
+
+# Postgres Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # PostgreSQL Patterns
 

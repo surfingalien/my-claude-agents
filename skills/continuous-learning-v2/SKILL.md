@@ -1,9 +1,11 @@
----
-name: continuous-learning-v2
+---name: continuous-learning-v2
 description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.
 origin: ECC
-version: 2.1.0
----
+version: 2.1.0---
+
+# Continuous Learning V2 Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Continuous Learning v2.1 - Instinct
 -Based Architecture

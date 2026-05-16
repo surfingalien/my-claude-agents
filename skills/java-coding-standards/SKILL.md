@@ -1,8 +1,10 @@
----
-name: java-coding-standards
+---name: java-coding-standards
 description: "Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout."
-origin: ECC
----
+origin: ECC---
+
+# Java Coding Standards Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Java Coding Standards
 

@@ -1,8 +1,10 @@
----
-name: security-scan
+---name: security-scan
 description: Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions.
-origin: ECC
----
+origin: ECC---
+
+# Security Scan Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Security Scan Skill
 

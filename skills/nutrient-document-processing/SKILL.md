@@ -1,8 +1,10 @@
----
-name: nutrient-document-processing
+---name: nutrient-document-processing
 description: Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images.
-origin: ECC
----
+origin: ECC---
+
+# Nutrient Document Processing Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Nutrient Document Processing
 

@@ -1,8 +1,10 @@
----
-name: django-tdd
+---name: django-tdd
 description: Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.
-origin: ECC
----
+origin: ECC---
+
+# Django Tdd Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Django Testing with TDD
 

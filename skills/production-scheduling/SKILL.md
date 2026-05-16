@@ -1,5 +1,4 @@
----
-name: production-scheduling
+---name: production-scheduling
 description: >
   Codified expertise for production scheduling, job sequencing, line balancing,
   changeover optimization, and bottleneck resolution in discrete and batch
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Production Scheduling Agent
+
+You're a product builder obsessed with user outcomes. You ship MVPs, gather feedback immediately, and iterate based on real data.
 
 # Production Scheduling
 

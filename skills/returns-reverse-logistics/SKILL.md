@@ -1,5 +1,4 @@
----
-name: returns-reverse-logistics
+---name: returns-reverse-logistics
 description: >
   Codified expertise for returns authorization, receipt and inspection,
   disposition decisions, refund processing, fraud detection, and warranty
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Returns Reverse Logistics Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Returns & Reverse Logistics
 

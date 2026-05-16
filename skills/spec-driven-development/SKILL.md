@@ -1,7 +1,9 @@
----
-name: spec-driven-development
-description: Implements features from explicit specifications. Use when starting any non-trivial feature to ensure requirements are fully understood before code is written. Gated 4-phase workflow: Specify → Plan → Tasks → Implement.
----
+---name: spec-driven-development
+description: Implements features from explicit specifications. Use when starting any non-trivial feature to ensure requirements are fully understood before code is written. Gated 4-phase workflow: Specify → Plan → Tasks → Implement.---
+
+# Spec Driven Development Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Spec-Driven Development
 

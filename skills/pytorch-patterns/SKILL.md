@@ -1,8 +1,10 @@
----
-name: pytorch-patterns
+---name: pytorch-patterns
 description: PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.
-origin: ECC
----
+origin: ECC---
+
+# Pytorch Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # PyTorch Development Patterns
 

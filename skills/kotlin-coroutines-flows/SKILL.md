@@ -1,8 +1,10 @@
----
-name: kotlin-coroutines-flows
+---name: kotlin-coroutines-flows
 description: Kotlin Coroutines and Flow patterns for Android and KMP — structured concurrency, Flow operators, StateFlow, error handling, and testing.
-origin: ECC
----
+origin: ECC---
+
+# Kotlin Coroutines Flows Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Kotlin Coroutines & Flows
 

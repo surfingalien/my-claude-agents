@@ -1,7 +1,9 @@
----
-name: debugging-and-error-recovery
-description: Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error.
----
+---name: debugging-and-error-recovery
+description: Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error.---
+
+# Debugging And Error Recovery Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Debugging and Error Recovery
 

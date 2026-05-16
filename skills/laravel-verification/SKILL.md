@@ -1,8 +1,10 @@
----
-name: laravel-verification
+---name: laravel-verification
 description: "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."
-origin: ECC
----
+origin: ECC---
+
+# Laravel Verification Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Laravel Verification Loop
 

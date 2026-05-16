@@ -1,8 +1,10 @@
----
-name: android-clean-architecture
+---name: android-clean-architecture
 description: Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns.
-origin: ECC
----
+origin: ECC---
+
+# Android Clean Architecture Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Android Clean Architecture
 

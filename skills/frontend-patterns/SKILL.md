@@ -1,8 +1,10 @@
----
-name: frontend-patterns
+---name: frontend-patterns
 description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
-origin: ECC
----
+origin: ECC---
+
+# Frontend Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Frontend Development Patterns
 

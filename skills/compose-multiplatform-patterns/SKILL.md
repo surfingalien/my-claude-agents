@@ -1,8 +1,10 @@
----
-name: compose-multiplatform-patterns
+---name: compose-multiplatform-patterns
 description: Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI.
-origin: ECC
----
+origin: ECC---
+
+# Compose Multiplatform Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Compose Multiplatform Patterns
 

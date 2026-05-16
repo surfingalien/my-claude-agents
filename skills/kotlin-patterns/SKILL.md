@@ -1,8 +1,10 @@
----
-name: kotlin-patterns
+---name: kotlin-patterns
 description: Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders.
-origin: ECC
----
+origin: ECC---
+
+# Kotlin Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Kotlin Development Patterns
 

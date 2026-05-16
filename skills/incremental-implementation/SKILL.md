@@ -1,7 +1,9 @@
----
-name: incremental-implementation
-description: Implements features incrementally. Use when building a feature, refactoring code, or making any change that could break existing behavior. Ensures each step is working before the next begins.
----
+---name: incremental-implementation
+description: Implements features incrementally. Use when building a feature, refactoring code, or making any change that could break existing behavior. Ensures each step is working before the next begins.---
+
+# Incremental Implementation Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Incremental Implementation
 

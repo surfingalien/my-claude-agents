@@ -1,8 +1,10 @@
----
-name: repo-scan
+---name: repo-scan
 description: Cross-stack source code asset audit — classifies every file, detects embedded third-party libraries, and delivers actionable four-level verdicts per module with interactive HTML reports.
-origin: community
----
+origin: community---
+
+# Repo Scan Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # repo-scan
 

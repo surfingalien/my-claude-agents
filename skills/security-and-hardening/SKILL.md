@@ -1,7 +1,9 @@
----
-name: security-and-hardening
-description: Hardens applications against security vulnerabilities. Use when building any feature that handles user input, authentication, data access, or external integrations. Apply OWASP Top 10 mitigations and validate at all system boundaries.
----
+---name: security-and-hardening
+description: Hardens applications against security vulnerabilities. Use when building any feature that handles user input, authentication, data access, or external integrations. Apply OWASP Top 10 mitigations and validate at all system boundaries.---
+
+# Security And Hardening Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Security and Hardening
 

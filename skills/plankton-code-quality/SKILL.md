@@ -1,8 +1,10 @@
----
-name: plankton-code-quality
+---name: plankton-code-quality
 description: "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks."
-origin: community
----
+origin: community---
+
+# Plankton Code Quality Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Plankton Code Quality Skill
 

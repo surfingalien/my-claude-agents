@@ -1,8 +1,10 @@
----
-name: perl-testing
+---name: perl-testing
 description: Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology.
-origin: ECC
----
+origin: ECC---
+
+# Perl Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # Perl Testing Patterns
 

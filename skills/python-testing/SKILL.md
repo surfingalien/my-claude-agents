@@ -1,8 +1,10 @@
----
-name: python-testing
+---name: python-testing
 description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
-origin: ECC
----
+origin: ECC---
+
+# Python Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # Python Testing Patterns
 

@@ -1,8 +1,10 @@
----
-name: kotlin-testing
+---name: kotlin-testing
 description: Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices.
-origin: ECC
----
+origin: ECC---
+
+# Kotlin Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # Kotlin Testing Patterns
 

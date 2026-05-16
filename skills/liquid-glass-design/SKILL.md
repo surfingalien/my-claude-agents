@@ -1,7 +1,9 @@
----
-name: liquid-glass-design
-description: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.
----
+---name: liquid-glass-design
+description: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.---
+
+# Liquid Glass Design Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Liquid Glass Design System (iOS 26)
 

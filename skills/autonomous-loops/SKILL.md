@@ -1,8 +1,10 @@
----
-name: autonomous-loops
+---name: autonomous-loops
 description: "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
-origin: ECC
----
+origin: ECC---
+
+# Autonomous Loops Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Autonomous Loops Skill
 

@@ -1,8 +1,10 @@
----
-name: content-hash-cache-pattern
+---name: content-hash-cache-pattern
 description: Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.
-origin: ECC
----
+origin: ECC---
+
+# Content Hash Cache Pattern Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Content-Hash File Cache Pattern
 

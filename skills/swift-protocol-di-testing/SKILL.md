@@ -1,8 +1,10 @@
----
-name: swift-protocol-di-testing
+---name: swift-protocol-di-testing
 description: Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.
-origin: ECC
----
+origin: ECC---
+
+# Swift Protocol Di Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # Swift Protocol-Based Dependency Injection for Testing
 

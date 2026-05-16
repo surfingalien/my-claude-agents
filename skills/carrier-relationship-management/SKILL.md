@@ -1,5 +1,4 @@
----
-name: carrier-relationship-management
+---name: carrier-relationship-management
 description: >
   Codified expertise for managing carrier portfolios, negotiating freight rates,
   tracking carrier performance, allocating freight, and maintaining strategic
@@ -14,8 +13,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Carrier Relationship Management Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Carrier Relationship Management
 

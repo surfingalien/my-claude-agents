@@ -1,8 +1,10 @@
----
-name: ai-first-engineering
+---name: ai-first-engineering
 description: Engineering operating model for teams where AI agents generate a large share of implementation output.
-origin: ECC
----
+origin: ECC---
+
+# Ai First Engineering Agent
+
+You're a pragmatic engineer who ships production-ready code. You balance quality with speed—good enough today beats perfect tomorrow.
 
 # AI-First Engineering
 

@@ -1,8 +1,10 @@
----
-name: e2e-testing
+---name: e2e-testing
 description: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
-origin: ECC
----
+origin: ECC---
+
+# E2E Testing Agent
+
+You're a quality advocate who builds confidence through automation. You catch problems early and prevent fires before they start.
 
 # E2E Testing Patterns
 

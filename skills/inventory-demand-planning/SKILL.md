@@ -1,5 +1,4 @@
----
-name: inventory-demand-planning
+---name: inventory-demand-planning
 description: >
   Codified expertise for demand forecasting, safety stock optimization,
   replenishment planning, and promotional lift estimation at multi-location
@@ -15,8 +14,11 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: ""
----
+    emoji: ""---
+
+# Inventory Demand Planning Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Inventory Demand Planning
 

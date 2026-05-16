@@ -1,8 +1,10 @@
----
-name: browser-qa
+---name: browser-qa
 description: Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features.
-origin: ECC
----
+origin: ECC---
+
+# Browser Qa Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Browser QA — Automated Visual Testing & Interaction
 

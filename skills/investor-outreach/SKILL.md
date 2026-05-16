@@ -1,8 +1,10 @@
----
-name: investor-outreach
+---name: investor-outreach
 description: Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
-origin: ECC
----
+origin: ECC---
+
+# Investor Outreach Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Investor Outreach
 

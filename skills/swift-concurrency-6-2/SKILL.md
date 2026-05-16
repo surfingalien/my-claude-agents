@@ -1,7 +1,9 @@
----
-name: swift-concurrency-6-2
-description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.
----
+---name: swift-concurrency-6-2
+description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.---
+
+# Swift Concurrency 6 2 Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Swift 6.2 Approachable Concurrency
 

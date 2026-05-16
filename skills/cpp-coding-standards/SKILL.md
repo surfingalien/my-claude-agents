@@ -1,8 +1,10 @@
----
-name: cpp-coding-standards
+---name: cpp-coding-standards
 description: C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.
-origin: ECC
----
+origin: ECC---
+
+# Cpp Coding Standards Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # C++ Coding Standards (C++ Core Guidelines)
 

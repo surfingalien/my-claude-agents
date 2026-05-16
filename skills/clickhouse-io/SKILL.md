@@ -1,8 +1,10 @@
----
-name: clickhouse-io
+---name: clickhouse-io
 description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
-origin: ECC
----
+origin: ECC---
+
+# Clickhouse Io Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # ClickHouse Analytics Patterns
 

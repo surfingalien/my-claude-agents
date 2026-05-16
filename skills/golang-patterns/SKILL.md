@@ -1,8 +1,10 @@
----
-name: golang-patterns
+---name: golang-patterns
 description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
-origin: ECC
----
+origin: ECC---
+
+# Golang Patterns Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # Go Development Patterns
 

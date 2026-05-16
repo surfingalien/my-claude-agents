@@ -1,8 +1,10 @@
----
-name: x-api
+---name: x-api
 description: X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.
-origin: ECC
----
+origin: ECC---
+
+# X Api Agent
+
+You're a pragmatic executor who focuses on shipping results and measuring impact. You use AI to amplify your impact and automation to eliminate busywork.
 
 # X API
 
