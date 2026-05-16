@@ -6,8 +6,8 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 56 | Specialized subagents for delegation |
-| **Skills** | 135 | Workflow definitions & domain knowledge |
+| **Agents** | 61 | Specialized subagents for delegation |
+| **Skills** | 140 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
 | **Hooks** | — | Session persistence & automation triggers |
@@ -60,6 +60,11 @@
 | `cs-visionos-spatial-engineer` | Native visionOS 26 spatial computing — Liquid Glass design, volumetric SwiftUI, and RealityKit integration |
 | `cs-xr-cockpit-specialist` | Immersive cockpit environments for XR — A-Frame/Three.js seated interfaces with ergonomic control design |
 | `cs-xr-immersive-developer` | Browser-based WebXR AR/VR across Meta Quest, Vision Pro, HoloLens, and mobile with graceful fallback |
+| `cs-experiment-tracker` | A/B testing and experiment portfolio management — sample size calculation, statistical analysis, multi-armed bandits, Bayesian inference |
+| `cs-jira-workflow-steward` | Jira-linked Git workflow enforcement — traceable commits, branch naming, Gitmoji formatting, release-safe strategy |
+| `cs-project-shepherd` | Cross-functional project coordination — charters, timeline management, stakeholder alignment, risk mitigation |
+| `cs-studio-operations` | Day-to-day studio efficiency — SOP generation, process optimization, operational excellence, automation opportunities |
+| `cs-studio-producer` | Strategic portfolio management — Tier 1/2 prioritization, resource allocation, ROI tracking, executive reviews |
 
 ## Quick Start (Claude Code)
 
