@@ -7,7 +7,7 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 30 | Specialized subagents for delegation |
+| **Agents** | 46 | Specialized subagents for delegation |
 | **Skills** | 135 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
@@ -38,6 +38,19 @@
 | `chief-of-staff` | Multi-channel communication triage |
 | `loop-operator` | Autonomous loop execution |
 | `healthcare-reviewer` | Healthcare/PHI compliance |
+| `cs-brand-guardian` | Brand identity development and consistency protection |
+| `cs-image-prompt-engineer` | AI photography prompt engineering for all major platforms |
+| `cs-inclusive-visuals-specialist` | Counter-bias prompt engineering for authentic representation |
+| `cs-ui-designer` | Design systems, component libraries, and WCAG AA accessibility |
+| `cs-ux-architect` | CSS architecture foundations, layout systems, and theme infrastructure |
+| `cs-ux-researcher` | User research studies, personas, usability testing, and behavioral insights |
+| `cs-visual-storyteller` | Visual narratives, storyboards, multimedia content, and cross-platform visual strategy |
+| `cs-whimsy-injector` | Micro-interactions, playful microcopy, Easter eggs, and accessible gamification |
+| `cs-bookkeeper-controller` | Month-end close, account reconciliations, GAAP compliance, and internal controls |
+| `cs-financial-analyst` | DCF valuation, three-statement models, comparable analysis, and scenario planning |
+| `cs-fpa-analyst` | Annual operating plans, rolling forecasts, variance analysis, and monthly business reviews |
+| `cs-investment-researcher` | Investment thesis construction, due diligence, valuation, and portfolio monitoring |
+| `cs-tax-strategist` | Tax optimization, entity structuring, equity comp planning, and multi-jurisdictional compliance |
 
 ## Quick Start (Claude Code)
 
