@@ -6,7 +6,7 @@
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| **Agents** | 51 | Specialized subagents for delegation |
+| **Agents** | 56 | Specialized subagents for delegation |
 | **Skills** | 135 | Workflow definitions & domain knowledge |
 | **Commands** | 60 | Slash commands (`/tdd`, `/plan`, `/e2e`, ...) |
 | **Rules** | 77 | Always-follow guidelines (13 languages) |
@@ -55,6 +55,11 @@
 | `cs-historian` | Historical authenticity, anachronism detection, material culture, and period-accurate enrichment |
 | `cs-narratologist` | Story structure analysis, character arc assessment, genre conventions, and narrative debt tracking |
 | `cs-psychologist` | Psychological profiles, interpersonal dynamics, trauma response modeling, and character credibility |
+| `cs-macos-metal-engineer` | Metal rendering pipelines for macOS and Vision Pro — instanced drawing, GPU compute, 90fps spatial rendering |
+| `cs-terminal-specialist` | SwiftTerm terminal emulation, SSH I/O bridging, ANSI rendering, and iOS/macOS terminal app development |
+| `cs-visionos-spatial-engineer` | Native visionOS 26 spatial computing — Liquid Glass design, volumetric SwiftUI, and RealityKit integration |
+| `cs-xr-cockpit-specialist` | Immersive cockpit environments for XR — A-Frame/Three.js seated interfaces with ergonomic control design |
+| `cs-xr-immersive-developer` | Browser-based WebXR AR/VR across Meta Quest, Vision Pro, HoloLens, and mobile with graceful fallback |
 
 ## Quick Start (Claude Code)
 
