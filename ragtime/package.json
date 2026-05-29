@@ -1,0 +1,25 @@
+{
+  "name": "@surfingalien/ragtime",
+  "version": "1.0.0",
+  "description": "Batch document intelligence processor for claude-mem — financial filings, earnings calls, market news",
+  "scripts": {
+    "start": "bun ragtime.ts",
+    "financial": "RAGTIME_MODE=financial-filing bun ragtime.ts",
+    "earnings": "RAGTIME_MODE=earnings-call bun ragtime.ts",
+    "news": "RAGTIME_MODE=market-news bun ragtime.ts",
+    "email": "RAGTIME_MODE=email-investigation bun ragtime.ts",
+    "test": "RAGTIME_FILE_LIMIT=2 bun ragtime.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surfingalien/my-claude-agents"
+  },
+  "author": "surfingalien <dev@surfingalien.ai>"
+}
