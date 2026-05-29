@@ -128,7 +128,8 @@ def generate_shell_script(tests: list[dict]) -> str:
         # Escape the sequence for printf
         seq_escaped = test["seq"].replace(ESC, "\\033").replace(BEL, "\\007")
         lines.append(f"printf '{seq_escaped}'")
-        lines.append(f"echo '  [{test[\"expect\"]}]'")
+        expect = test["expect"]
+        lines.append(f"echo '  [{expect}]'")
         lines.append("sleep 0.1")
         lines.append("")
     return "\n".join(lines)
